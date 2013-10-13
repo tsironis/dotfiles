@@ -1,7 +1,7 @@
 dotfiles
 ========
 
-Simple configurations for my Mac OS X terminal. Configs include:
+Simple configurations for my Mac OS X terminal. Repo include:
 
 * Git configurations
 * Hg configurations
