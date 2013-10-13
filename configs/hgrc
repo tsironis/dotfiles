@@ -1,0 +1,43 @@
+[ui]
+username=Dimitris Tsironis <dimitris@bugsense.com>
+editor=vim
+merge = diffmerge
+
+[extensions]
+hgext.extdiff =
+prompt = ~/Sources/hg-prompt/prompt.py
+color=
+rebase =
+graphlog =
+pager =
+hgshelve=~/Sources/hgshelve/hgshelve.py
+record =
+transplant =
+mq =
+hgext.collapse =~/Sources/hgcollapse/hgext/collapse.py
+
+[extdiff]
+cmd.diffmerge = /usr/bin/diffmerge
+
+[merge-tools]
+diffmerge.executable = /usr/bin/diffmerge
+diffmerge.args = -merge -result=$output -t1="Local Version" -t2=$output -t3="Other Version" -caption=$output $local $base $other
+diffmerge.binary = False
+diffmerge.symlinks = False
+diffmerge.gui = True
+
+[pager]
+pager = LESS='FSRX' less
+attend = cat, diff, glog, log, incoming, outgoing, lg, show, lg
+
+[paths]
+default = ssh://hg@bitbucket.org/jonromero/bugsense
+
+[hooks]
+#pretxncommit.units = python units.py
+#pretxncommit.grunt = python grunt.py
+#pretxncommit.locale = python locale.py
+
+[alias]
+blame = annotate --user -c
+lg = glog

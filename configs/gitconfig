@@ -1,0 +1,30 @@
+[user]
+	name = Dimitris Tsironis
+	email = tsironis.dimitris@gmail.com
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  di = diff
+  br = branch
+  mod = ls-files -m
+  tip = log -1
+  ds = diff --cached
+  sm = submodule
+  line = log --oneline
+  hard = reset --hard
+  ls = ls-files
+  pop = stash pop
+
+[credential]
+helper = /opt/boxen/bin/boxen-git-credential
+
+[core]
+excludesfile = /opt/boxen/config/git/gitignore
+
+[hub]
+protocol = https
+[color]
+	ui = auto
+[push]
+	default = simple
