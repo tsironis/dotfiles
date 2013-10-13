@@ -40,6 +40,8 @@ end
 desc 'Install these config files.'
 task :default do
   step 'symlink'
-  link_file 'gitconfig' , '~/.gitconfig'
-  link_file 'hgrc'      , '~/.hgrc'
+  link_file 'configs/gitconfig' , '~/.gitconfig'
+  link_file 'configs/hgrc'      , '~/.hgrc'
+  link_file 'configs/zshrc'      , '~/.zshrc'
+  link_file 'themes/prose.zsh-theme'      , '~/.oh-my-zsh/themes/prose.zsh-theme'
 end
