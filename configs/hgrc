@@ -5,16 +5,16 @@ merge = diffmerge
 
 [extensions]
 hgext.extdiff =
-prompt = ~/Sources/hg-prompt/prompt.py
+prompt = ~/Sources/dotfiles/hg-prompt/prompt.py
 color=
 rebase =
 graphlog =
 pager =
-hgshelve=~/Sources/hgshelve/hgshelve.py
+hgshelve=~/Sources/dotfiles/hgshelve/hgshelve.py
 record =
 transplant =
 mq =
-hgext.collapse =~/Sources/hgcollapse/hgext/collapse.py
+hgext.collapse =~/Sources/dotfiles/hgcollapse/hgext/collapse.py
 
 [extdiff]
 cmd.diffmerge = /usr/bin/diffmerge
