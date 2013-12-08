@@ -11,6 +11,7 @@ ZSH_THEME="prose"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias b=~/Spl/bugsense/app/static/js
+alias spl=/Applications/splunk/etc/apps/splunksense/django/splunksense/static/splunksense
 alias webserver="python -m SimpleHTTPServer 7000"
 
 # Set to this to use case-sensitive completion
@@ -49,4 +50,4 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$PATH:/Users/dtsironis/.rvm/bin:/Applications/splunk/bin # Add RVM to PATH for scripting

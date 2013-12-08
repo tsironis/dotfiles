@@ -43,5 +43,6 @@ task :default do
   link_file 'configs/gitconfig' , '~/.gitconfig'
   link_file 'configs/hgrc'      , '~/.hgrc'
   link_file 'configs/zshrc'      , '~/.zshrc'
+  link_file 'configs/boom'      , '~/.boom'
   link_file 'themes/prose.zsh-theme'      , '~/.oh-my-zsh/themes/prose.zsh-theme'
 end
