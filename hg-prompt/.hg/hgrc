@@ -1,2 +1,2 @@
 [paths]
-default = http://bitbucket.org/sjl/hg-prompt/
+default = ssh://hg@bitbucket.org/sjl/hg-prompt

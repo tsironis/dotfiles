@@ -1,3 +1,3 @@
 0
 pull
-http://bitbucket.org/sjl/hg-prompt/
+ssh://hg@bitbucket.org/sjl/hg-prompt

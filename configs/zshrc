@@ -11,7 +11,7 @@ ZSH_THEME="prose"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias b=~/Spl/bugsense/app/static/js
-alias spl=/Applications/splunk/etc/apps/splunksense/django/splunksense/static/splunksense
+alias spl=/Applications/splunk/etc/apps/splunksense/appserver/static/js
 alias webserver="python -m SimpleHTTPServer 7000"
 
 # Set to this to use case-sensitive completion
@@ -43,11 +43,8 @@ alias webserver="python -m SimpleHTTPServer 7000"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git, mercurial, virtualenv, brew, osx)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-
-PATH=$PATH:/Users/dtsironis/.rvm/bin:/Applications/splunk/bin # Add RVM to PATH for scripting
