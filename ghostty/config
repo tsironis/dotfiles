@@ -1,0 +1,23 @@
+font-thicken=true
+font-size = 13
+cursor-style = block
+theme = Builtin Tango Dark
+macos-titlebar-style = hidden
+keybind= ctrl+shift+r=reload_config
+copy-on-select = clipboard
+mouse-hide-while-typing = true
+
+# Add new line
+keybind = shift+enter=text:\n
+
+# Creating splits
+keybind = ctrl+shift+m=new_split:left
+keybind = ctrl+shift+n=new_split:down
+keybind = ctrl+shift+e=new_split:up
+keybind = ctrl+shift+i=new_split:right
+
+# Navigating splits
+keybind = ctrl+m=goto_split:left
+keybind = ctrl+e=goto_split:bottom
+keybind = ctrl+i=goto_split:top
+keybind = ctrl+n=goto_split:right
