@@ -8,4 +8,9 @@ in
     source = config.lib.file.mkOutOfStoreSymlink "${dotfiles}/nvim";
     force = true;
   };
+
+  xdg.configFile."zellij" = {
+    source = config.lib.file.mkOutOfStoreSymlink "${dotfiles}/zellij";
+    force = true;
+  };
 }

@@ -76,6 +76,7 @@
       "stylua"
       "borders"
       "elixir"
+      "zig"
       "opencode"
       "lazygit"
       "lazydocker"
