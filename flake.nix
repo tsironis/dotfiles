@@ -13,9 +13,11 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    nix-homebrew.url = "github:zhaofengli/nix-homebrew";
   };
 
-  outputs = inputs @ { self, nixpkgs, darwin, home-manager, ... }:
+  outputs = inputs @ { self, nixpkgs, darwin, home-manager, nix-homebrew, ... }:
   let
     # ── EDIT THESE TWO FOR YOUR MACHINE ──────────────────────────────────────
     # Forking this repo? Set your own username and macOS hostname here, then
@@ -33,6 +35,7 @@
       specialArgs = specialArgs // { inherit inputs; };
       modules = [
         ./hosts/darwin/default.nix
+        nix-homebrew.darwinModules.nix-homebrew
         home-manager.darwinModules.home-manager
         {
           home-manager = {

@@ -1,4 +1,4 @@
-{ pkgs, ...}: {
+{ pkgs, username, ...}: {
 
   ##########################################################################
   #
@@ -30,6 +30,29 @@
   ];
 
   environment.variables.EDITOR = "nvim";
+
+  # nix-homebrew manages the Homebrew installation itself (owner of the prefix),
+  # while the `homebrew` block below declares what to install.
+  nix-homebrew = {
+    enable = true;
+    user = username;     # owns the Homebrew prefix
+    autoMigrate = true;  # adopt the existing /opt/homebrew install in place
+    # mutableTaps left at its default (true) so the imperative taps below keep working.
+
+    # Trust entries for third-party (non-official) taps, applied via `brew trust`
+    # during activation. Per-item rather than whole-tap. Note: removing an entry
+    # here does NOT untrust it — use `brew untrust` for that.
+    trust = {
+      formulae = [
+        "felixkratz/formulae/sketchybar"
+        "felixkratz/formulae/borders"
+        "sst/tap/opencode"
+      ];
+      casks = [
+        "nikitabobko/tap/aerospace"
+      ];
+    };
+  };
 
   # TODO To make this work, homebrew need to be installed manually, see https://brew.sh
   #
@@ -100,7 +123,6 @@
       "vscodium"
       "microsoft-teams"
       "visual-studio-code"
-      "arc"
       "zen"
       "tunnelblick"
       "ghostty"
