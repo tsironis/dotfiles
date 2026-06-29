@@ -134,7 +134,7 @@ return {
 	["系统设置"] = ":gear:",
 	["Affinity Designer"] = ":affinity_designer:",
 	["Live"] = ":ableton:",
-	["Arc"] = ":arc:",
+	["Zen"] = ":zen_browser:",
 	["Chromium"] = ":google_chrome:",
 	["Google Chrome"] = ":google_chrome:",
 	["Google Chrome Canary"] = ":google_chrome:",
