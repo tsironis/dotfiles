@@ -13,6 +13,9 @@ local icons = {
 		keyboard = "􀇳",
 		headphones = "􀑈",
 		vpn = "􀎡",
+		gitlab = "\u{f296}",
+		merge_request = "\u{f407}",
+		issue = "\u{f421}",
 
 		switch = {
 			on = "􁏮",
@@ -65,6 +68,9 @@ local icons = {
 		keyboard = "󰌌",
 		headphones = "󰋋",
 		vpn = "󰖂",
+		gitlab = "\u{f296}",
+		merge_request = "\u{f407}",
+		issue = "\u{f421}",
 
 		switch = {
 			on = "󱨥",
