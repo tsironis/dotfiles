@@ -6,7 +6,14 @@ enable-normalization-flatten-containers = false
 enable-normalization-opposite-orientation-for-nested-containers = false
 
 after-startup-command = [
-  'exec-and-forget borders active_color=0xfff9e2af inactive_color=0xff6c7086 width=8.0'
+  'exec-and-forget borders active_color=0xfffce94f inactive_color=0xff555753 width=8.0'
+]
+
+# Notify Sketchybar about workspace change (must be a root-level key, before any [table])
+exec-on-workspace-change = [
+  '/bin/bash',
+  '-c',
+  '/opt/homebrew/opt/sketchybar/bin/sketchybar --trigger aerospace_workspace_change FOCUSED_WORKSPACE=$AEROSPACE_FOCUSED_WORKSPACE',
 ]
 
 [mode.main.binding]
@@ -95,12 +102,4 @@ outer.right = 10
 8 = ['secondary']        # You can specify multiple patterns. The first matching pattern will be used
 9 = ['secondary']        # You can specify multiple patterns. The first matching pattern will be used
 10 = ['secondary']        # You can specify multiple patterns. The first matching pattern will be used
-
-
-# Notify Sketchybar about workspace change
-# exec-on-workspace-change = [
-# 	'/bin/bash',
-# 	'-c',
-# 	'/opt/homebrew/opt/sketchybar/bin/sketchybar --trigger aerospace_workspace_change FOCUSED_WORKSPACE=$AEROSPACE_FOCUSED_WORKSPACE',
-# ]
 

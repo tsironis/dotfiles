@@ -70,7 +70,7 @@ local function addWorkspaceItem(workspaceName, monitorId, isSelected)
 			padding_left = 2,
 			padding_right = 2,
 			background = {
-				color = colors.bg2,
+				color = colors.bg1,
 				border_width = 1,
 				height = 24,
 				border_color = colors.bg1,
@@ -104,7 +104,7 @@ local function addWorkspaceItem(workspaceName, monitorId, isSelected)
 	})
 
 	spaces[spaceId].bracket:set({
-		background = { border_color = isSelected and colors.dirty_white or colors.transparent },
+		background = { border_color = isSelected and colors.yellow or colors.transparent },
 	})
 
 	updateSpaceIcons(spaceId, workspaceName)

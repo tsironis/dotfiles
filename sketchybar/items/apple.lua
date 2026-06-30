@@ -33,4 +33,4 @@ sbar.add("bracket", { apple.name }, {
 })
 
 -- Padding item required because of bracket
-sbar.add("item", { width = 7 })
+sbar.add("item", { width = 2 })
