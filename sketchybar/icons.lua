@@ -7,7 +7,11 @@ local icons = {
 		apple = "􀣺",
 		gear = "􀍟",
 		cpu = "􀫥",
+		memory = "􀫦",
 		clipboard = "􀉄",
+		bluetooth = "􀝢",
+		keyboard = "􀇳",
+		headphones = "􀑈",
 
 		switch = {
 			on = "􁏮",
@@ -54,7 +58,11 @@ local icons = {
 		apple = "",
 		gear = "",
 		cpu = "",
+		memory = "󰍛",
 		clipboard = "Missing Icon",
+		bluetooth = "󰂯",
+		keyboard = "󰌌",
+		headphones = "󰋋",
 
 		switch = {
 			on = "󱨥",

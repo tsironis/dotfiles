@@ -1,8 +1,6 @@
 local icons = require("icons")
 local colors = require("colors")
 
-local whitelist = { ["Spotify"] = true, ["Music"] = true, ["eSound Music"] = true }
-
 local media_cover = sbar.add("item", {
 	position = "right",
 	background = {
@@ -71,13 +69,13 @@ sbar.add("item", {
 })
 
 media_cover:subscribe("media_change", function(env)
-	print("App detected:  \n \n \n" .. env.INFO.app) -- Log the app name
-	if whitelist[env.INFO.app] then
-		local drawing = (env.INFO.state == "playing")
-		media_artist:set({ drawing = drawing, label = env.INFO.artist })
-		media_title:set({ drawing = drawing, label = env.INFO.title })
-		media_cover:set({ drawing = drawing })
-	end
+	-- Generic: show whatever app is reporting via MediaRemote, as long as it's
+	-- actively playing and has a title (covers browsers, VLC, YouTube Music, etc.).
+	local has_title = env.INFO.title ~= nil and env.INFO.title ~= ""
+	local drawing = (env.INFO.state == "playing") and has_title
+	media_artist:set({ drawing = drawing, label = env.INFO.artist or "" })
+	media_title:set({ drawing = drawing, label = env.INFO.title or "" })
+	media_cover:set({ drawing = drawing })
 end)
 
 media_cover:subscribe("mouse.clicked", function(env)
