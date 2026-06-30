@@ -49,6 +49,7 @@
         "felixkratz/formulae/sketchybar"
         "felixkratz/formulae/borders"
         "sst/tap/opencode"
+        "chipmk/tap/docker-mac-net-connect"
       ];
       casks = [
         "nikitabobko/tap/aerospace"
@@ -74,6 +75,7 @@
       "nikitabobko/tap"
       "felixkratz/formulae"
       "sst/tap"
+      "chipmk/tap"
     ];
 
     masApps = {
@@ -116,6 +118,7 @@
       "yq"
       "zoxide"
       "bat"
+      "docker-mac-net-connect"
     ];
 
     # `brew install --cask`
