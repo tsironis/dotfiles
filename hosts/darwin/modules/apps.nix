@@ -27,6 +27,8 @@
     ripgrep
     uv
     python3
+    alejandra  # nix formatter (matches flake formatter; used by nvim conform)
+    shfmt      # shell formatter (used by nvim conform)
   ];
 
   environment.variables.EDITOR = "nvim";
@@ -112,6 +114,8 @@
       "glab"
       "gh"
       "yq"
+      "zoxide"
+      "bat"
     ];
 
     # `brew install --cask`
