@@ -68,20 +68,24 @@ for i = 1, MAX_BT_ROWS do
   })
 end
 
--- Bar indicator (left of the battery icon): shown only when a connected
--- Bluetooth device is low, so a device needing a charge is visible at a glance.
-local bt_indicator = sbar.add("item", "widgets.battery.bt_indicator", {
-  position = "right",
-  drawing = false,
-  icon = {
-    string = icons.bluetooth,
-    color = colors.red,
-    font = { style = settings.font.style_map["Regular"], size = 14.0 },
-    padding_left = 2,
-    padding_right = 2,
-  },
-  label = { drawing = false },
-})
+-- Bar indicators (left of the battery icon): one red device glyph per low
+-- device, shown side by side, so a device needing a charge is visible at a
+-- glance (keyboard for the keyboard, headphones for AirPods, etc.).
+local bt_indicators = {}
+for i = 1, MAX_BT_ROWS do
+  bt_indicators[i] = sbar.add("item", "widgets.battery.bt_low." .. i, {
+    position = "right",
+    drawing = false,
+    icon = {
+      string = icons.bluetooth,
+      color = colors.red,
+      font = { style = settings.font.style_map["Regular"], size = 14.0 },
+      padding_left = 1,
+      padding_right = 1,
+    },
+    label = { drawing = false },
+  })
+end
 
 local function bt_icon_for(name)
   local n = name:lower()
@@ -118,7 +122,7 @@ local function refresh_bluetooth()
           devices[#devices + 1] = { name = name, pct = tonumber(pct) }
         end
       end
-      local low_name, low_pct = nil, 101
+      local low = {}
       for i = 1, MAX_BT_ROWS do
         local d = devices[i]
         if d then
@@ -127,17 +131,20 @@ local function refresh_bluetooth()
             icon = { string = bt_icon_for(d.name) .. " " .. d.name },
             label = { string = d.pct .. "%", color = bt_color_for(d.pct) },
           })
-          if d.pct < low_pct then low_pct = d.pct; low_name = d.name end
+          if d.pct <= BT_LOW then low[#low + 1] = d end
         else
           bt_rows[i]:set({ drawing = false })
         end
       end
 
-      -- Flag the bar indicator with the lowest device's glyph when it's low.
-      if low_name and low_pct <= BT_LOW then
-        bt_indicator:set({ drawing = true, icon = { string = bt_icon_for(low_name), color = colors.red } })
-      else
-        bt_indicator:set({ drawing = false })
+      -- One red indicator per low device (keyboard / headphones), side by side.
+      for i = 1, MAX_BT_ROWS do
+        local d = low[i]
+        if d then
+          bt_indicators[i]:set({ drawing = true, icon = { string = bt_icon_for(d.name), color = colors.red } })
+        else
+          bt_indicators[i]:set({ drawing = false })
+        end
       end
     end)
   end)
@@ -206,7 +213,11 @@ battery:subscribe("mouse.clicked", function(env)
   end
 end)
 
-sbar.add("bracket", "widgets.battery.bracket", { bt_indicator.name, battery.name }, {
+local bracket_items = { battery.name }
+for i = 1, MAX_BT_ROWS do
+  bracket_items[#bracket_items + 1] = bt_indicators[i].name
+end
+sbar.add("bracket", "widgets.battery.bracket", bracket_items, {
   background = { color = colors.bg1 }
 })
 
