@@ -270,24 +270,9 @@ load_plugins {
 // Choose the theme that is specified in the themes section.
 // Default: default
 //
-theme "tango-dark"
-
-// Tango Dark palette — keeps zellij consistent with Ghostty / sketchybar / nvim.
-themes {
-    tango-dark {
-        fg "#d3d7cf"
-        bg "#000000"
-        black "#2e3436"
-        red "#ef2929"
-        green "#8ae234"
-        yellow "#fce94f"
-        blue "#729fcf"
-        magenta "#ad7fa8"
-        cyan "#34e2e2"
-        white "#eeeeec"
-        orange "#f57900"
-    }
-}
+// No theme set on purpose: zellij inherits Ghostty's ANSI palette (Tango Dark),
+// which keeps colors consistent and lets native terminal text selection render.
+// theme "dracula"
 
 // Choose the base input mode of zellij.
 // Default: normal
