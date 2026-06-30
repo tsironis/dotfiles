@@ -35,7 +35,7 @@ sbar.default({
 			shadow = { drawing = true },
 		},
 	},
-	padding_left = 5,
-	padding_right = 5,
+	padding_left = 3,
+	padding_right = 3,
 	scroll_texts = true,
 })
