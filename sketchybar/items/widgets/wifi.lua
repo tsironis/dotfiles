@@ -60,11 +60,29 @@ local wifi = sbar.add("item", "widgets.wifi.padding", {
   label = { drawing = false },
 })
 
+-- VPN indicator: shown (green shield) only when a Tunnelblick/OpenVPN tunnel
+-- is up. Detected via the openvpn process (no automation permission needed).
+local vpn = sbar.add("item", "widgets.vpn", {
+  position = "right",
+  drawing = false,
+  updates = true, -- keep receiving "routine" even while hidden (default is when_shown)
+  icon = {
+    string = icons.vpn,
+    color = colors.green,
+    font = { style = settings.font.style_map["Regular"], size = 14.0 },
+    padding_left = 4,
+    padding_right = 4,
+  },
+  label = { drawing = false },
+  update_freq = 10,
+})
+
 -- Background around the item
 local wifi_bracket = sbar.add("bracket", "widgets.wifi.bracket", {
   wifi.name,
   wifi_up.name,
-  wifi_down.name
+  wifi_down.name,
+  vpn.name
 }, {
   background = { color = colors.bg1 },
   popup = { align = "center", height = 30 }
@@ -152,6 +170,20 @@ local router = sbar.add("item", {
   },
 })
 
+local vpn_info = sbar.add("item", {
+  position = "popup." .. wifi_bracket.name,
+  icon = {
+    align = "left",
+    string = "VPN:",
+    width = popup_width / 2,
+  },
+  label = {
+    string = "Off",
+    width = popup_width / 2,
+    align = "right",
+  },
+})
+
 sbar.add("item", { position = "right", width = settings.group_paddings })
 
 wifi_up:subscribe("network_update", function(env)
@@ -185,6 +217,19 @@ wifi:subscribe({"wifi_change", "system_woke"}, function(env)
   end)
 end)
 
+-- Prints the connected Tunnelblick config name (.tblk basename) or nothing.
+-- The [T] trick keeps the grep from matching itself, so no `grep -v` needed.
+local VPN_CHECK = [[ps -Axo command 2>/dev/null | grep -m1 "[T]unnelblick.app/Contents/Resources/openvpn" | sed -nE 's#.*/Users/[^/]+/([^/]+)\.tblk.*#\1#p']]
+
+local function update_vpn()
+  sbar.exec(VPN_CHECK, function(result)
+    local name = (result or ""):match("^%s*(.-)%s*$")
+    local connected = name ~= ""
+    vpn:set({ drawing = connected })
+    vpn_info:set({ label = connected and name or "Off" })
+  end)
+end
+
 local function hide_details()
   wifi_bracket:set({ popup = { drawing = false } })
 end
@@ -208,6 +253,7 @@ local function toggle_details()
     sbar.exec("networksetup -getinfo Wi-Fi | awk -F 'Router: ' '/^Router: / {print $2}'", function(result)
       router:set({ label = result })
     end)
+    update_vpn()
   else
     hide_details()
   end
@@ -217,6 +263,10 @@ wifi_up:subscribe("mouse.clicked", toggle_details)
 wifi_down:subscribe("mouse.clicked", toggle_details)
 wifi:subscribe("mouse.clicked", toggle_details)
 wifi:subscribe("mouse.exited.global", hide_details)
+
+vpn:subscribe({ "routine", "system_woke" }, update_vpn)
+vpn:subscribe("mouse.clicked", toggle_details)
+vpn:subscribe("mouse.exited.global", hide_details)
 
 local function copy_label_to_clipboard(env)
   local label = sbar.query(env.NAME).label.value

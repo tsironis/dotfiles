@@ -12,6 +12,7 @@ local icons = {
 		bluetooth = "􀝢",
 		keyboard = "􀇳",
 		headphones = "􀑈",
+		vpn = "􀎡",
 
 		switch = {
 			on = "􁏮",
@@ -63,6 +64,7 @@ local icons = {
 		bluetooth = "󰂯",
 		keyboard = "󰌌",
 		headphones = "󰋋",
+		vpn = "󰖂",
 
 		switch = {
 			on = "󱨥",
