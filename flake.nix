@@ -15,6 +15,10 @@
     };
 
     nix-homebrew.url = "github:zhaofengli/nix-homebrew";
+
+    # Determinate Nix — hardened daemon that survives macOS major upgrades
+    # (signed LaunchDaemon, not BTM-gated). Manages Nix itself; see nix-core.nix.
+    determinate.url = "https://flakehub.com/f/DeterminateSystems/determinate/3";
   };
 
   outputs = inputs @ { self, nixpkgs, darwin, home-manager, nix-homebrew, ... }:
@@ -34,6 +38,7 @@
       system = "aarch64-darwin";
       specialArgs = specialArgs // { inherit inputs; };
       modules = [
+        inputs.determinate.darwinModules.default
         ./hosts/darwin/default.nix
         nix-homebrew.darwinModules.nix-homebrew
         home-manager.darwinModules.home-manager

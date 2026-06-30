@@ -1,28 +1,22 @@
-{ pkgs, lib, ... }:
+{ ... }:
 
 {
-  # enable flakes globally
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
-
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  # Use this instead of services.nix-daemon.enable if you
-  # don't wan't the daemon service to be managed for you.
-  nix.enable = true;
+  # Nix itself is managed by Determinate (see the `determinate` flake input and
+  # the darwinModules.default import in flake.nix). The module sets
+  # `nix.enable = false` for us, so we must NOT also set it here, nor set
+  # `nix.package` / `nix.gc` — determinate-nixd handles the daemon and GC.
+  determinateNix.enable = true;
 
-  nix.package = pkgs.nix;
+  # Custom daemon settings are written to /etc/nix/nix.custom.conf.
+  determinateNix.customSettings = {
+    experimental-features = [ "nix-command" "flakes" ];
 
-  # do garbage collection weekly to keep disk usage low
-  nix.gc = {
-    automatic = lib.mkDefault true;
-    options = lib.mkDefault "--delete-older-than 7d";
-  };
-
-  # Disable auto-optimise-store because of this issue:
-  #   https://github.com/NixOS/nix/issues/7273
-  # "error: cannot link '/nix/store/.tmp-link-xxxxx-xxxxx' to '/nix/store/.links/xxxx': File exists"
-  nix.settings = {
+    # Disable auto-optimise-store because of this issue:
+    #   https://github.com/NixOS/nix/issues/7273
+    # "error: cannot link '/nix/store/.tmp-link-xxxxx' to '/nix/store/.links/xxxx': File exists"
     auto-optimise-store = false;
   };
 }
