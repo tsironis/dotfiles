@@ -57,22 +57,8 @@ vim.opt.rtp:prepend(lazypath)
 
 -- 3. PLUGINS
 require('lazy').setup {
-  -- Colorscheme
-  {
-    'folke/tokyonight.nvim',
-    priority = 1000,
-    init = function()
-      vim.cmd.colorscheme 'tokyonight-night'
-    end,
-    opts = {
-      style = 'night',
-      transparent = true,
-      styles = { floats = 'transparent' },
-      on_highlights = function(hl, c)
-        hl.FloatBorder = { fg = c.blue, bg = c.none }
-      end,
-    },
-  },
+  -- Colorscheme is applied via mini.base16 (Tango Dark palette) in the mini.nvim
+  -- config block below, to keep the whole stack on one theme.
   {
     'folke/trouble.nvim',
     opts = {}, -- Use defaults
@@ -150,6 +136,30 @@ require('lazy').setup {
     'echasnovski/mini.nvim',
     version = '*',
     config = function()
+      -- Colorscheme: Tango Dark (matches Ghostty / sketchybar / borders / zellij).
+      -- base00 (#000000) equals the terminal background, so a solid bg is visually
+      -- identical to the previous transparent setup.
+      require('mini.base16').setup {
+        palette = {
+          base00 = '#000000',
+          base01 = '#2e3436',
+          base02 = '#555753',
+          base03 = '#888a85',
+          base04 = '#babdb6',
+          base05 = '#d3d7cf',
+          base06 = '#eeeeec',
+          base07 = '#ffffff',
+          base08 = '#ef2929',
+          base09 = '#f57900',
+          base0A = '#fce94f',
+          base0B = '#8ae234',
+          base0C = '#34e2e2',
+          base0D = '#729fcf',
+          base0E = '#ad7fa8',
+          base0F = '#ce5c00',
+        },
+      }
+
       require('mini.pick').setup {
         mappings = {
           choose_all = {
@@ -310,6 +320,9 @@ require('lazy').setup {
         javascript = { 'prettierd', 'prettier', stop_after_first = true },
         typescript = { 'prettierd', 'prettier', stop_after_first = true },
         markdown = { 'prettierd', 'prettier', stop_after_first = true },
+        nix = { 'alejandra' },
+        sh = { 'shfmt' },
+        bash = { 'shfmt' },
       },
       format_on_save = {
         timeout_ms = 500,
@@ -347,7 +360,7 @@ require('lazy').setup {
 
       -- Mason Handlers
       require('mason-lspconfig').setup {
-        ensure_installed = { 'lua_ls' },
+        ensure_installed = { 'lua_ls', 'ts_ls', 'pyright', 'gopls', 'rust_analyzer', 'nixd' },
         handlers = {
           function(server_name)
             vim.lsp.enable(server_name)
