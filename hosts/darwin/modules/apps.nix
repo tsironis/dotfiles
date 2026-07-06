@@ -1,5 +1,8 @@
-{ pkgs, username, ...}: {
-
+{
+  pkgs,
+  username,
+  ...
+}: {
   ##########################################################################
   #
   #  Install all apps and packages here.
@@ -27,8 +30,8 @@
     ripgrep
     uv
     python3
-    alejandra  # nix formatter (matches flake formatter; used by nvim conform)
-    shfmt      # shell formatter (used by nvim conform)
+    alejandra # nix formatter (matches flake formatter; used by nvim conform)
+    shfmt # shell formatter (used by nvim conform)
   ];
 
   environment.variables.EDITOR = "nvim";
@@ -37,8 +40,8 @@
   # while the `homebrew` block below declares what to install.
   nix-homebrew = {
     enable = true;
-    user = username;     # owns the Homebrew prefix
-    autoMigrate = true;  # adopt the existing /opt/homebrew install in place
+    user = username; # owns the Homebrew prefix
+    autoMigrate = true; # adopt the existing /opt/homebrew install in place
     # mutableTaps left at its default (true) so the imperative taps below keep working.
 
     # Trust entries for third-party (non-official) taps, applied via `brew trust`
@@ -148,6 +151,7 @@
       "signal"
       "figma"
       "claude-code"
+      "git-credential-manager"
       # "battery"
     ];
   };
