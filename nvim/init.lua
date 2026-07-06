@@ -360,13 +360,16 @@ require('lazy').setup {
 
       -- Mason Handlers
       require('mason-lspconfig').setup {
-        ensure_installed = { 'lua_ls', 'ts_ls', 'pyright', 'gopls', 'rust_analyzer', 'nixd' },
+        ensure_installed = { 'lua_ls', 'ts_ls', 'pyright', 'gopls', 'rust_analyzer' },
         handlers = {
           function(server_name)
             vim.lsp.enable(server_name)
           end,
         },
       }
+
+      -- nixd is installed via Nix (not Mason); enable it directly.
+      vim.lsp.enable 'nixd'
     end,
   },
   {
