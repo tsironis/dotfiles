@@ -158,4 +158,18 @@
       # "battery"
     ];
   };
+
+  # `brew shellenv` (run from ~/.zprofile) puts /opt/homebrew/share/zsh/site-functions
+  # on FPATH, then macOS's /etc/zshrc runs compinit before ~/.zshrc. Under nix-homebrew,
+  # the _brew completion symlink there points at /opt/homebrew/completions/zsh/_brew,
+  # which is never created — so compinit warns about a dangling symlink on every new shell.
+  # Repoint it at the real completion shipped in the Nix store (reachable via the
+  # /opt/homebrew/Library/Homebrew store symlink). Idempotent; re-applied on each switch.
+  system.activationScripts.postActivation.text = ''
+    brewCompletion="/opt/homebrew/share/zsh/site-functions/_brew"
+    realCompletion="/opt/homebrew/Library/Homebrew/../../completions/zsh/_brew"
+    if [ ! -e "$brewCompletion" ] && [ -e "$realCompletion" ]; then
+      ln -sfn "$realCompletion" "$brewCompletion"
+    fi
+  '';
 }
