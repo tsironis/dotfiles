@@ -117,6 +117,7 @@
       "typst"
       "atuin"
       "glab"
+      "flyctl"
       "gh"
       "yq"
       "zoxide"
@@ -143,6 +144,7 @@
       "zoom"
       "element"
       "vlc"
+      "obsidian"
       "caffeine"
       "bambu-studio"
       "kicad"
@@ -152,6 +154,7 @@
       "figma"
       "claude-code"
       "git-credential-manager"
+      "quarto"
       # "battery"
     ];
   };
