@@ -67,8 +67,7 @@ local volume_slider = sbar.add("slider", popup_width, {
 	click_script = 'osascript -e "set volume output volume $PERCENTAGE"',
 })
 
-volume_percent:subscribe("volume_change", function(env)
-	local volume = tonumber(env.INFO)
+local function volume_render(volume)
 	local icon = icons.volume._0
 	if volume > 60 then
 		icon = icons.volume._100
@@ -88,6 +87,37 @@ volume_percent:subscribe("volume_change", function(env)
 	volume_icon:set({ label = icon })
 	volume_percent:set({ label = lead .. volume .. "%" })
 	volume_slider:set({ slider = { percentage = volume } })
+end
+
+local function volume_render_no_control()
+	-- Outputs like Thunderbolt/USB audio interfaces expose no software volume
+	-- control (AppleScript reports "missing value"). Show a plain speaker icon
+	-- and drop the misleading 0%/muted readout.
+	volume_icon:set({ label = "\u{f04c3}" })
+	volume_percent:set({ label = "" })
+	volume_slider:set({ slider = { percentage = 0 } })
+end
+
+volume_percent:subscribe("volume_change", function(env)
+	local volume = tonumber(env.INFO)
+
+	-- The volume_change event reports "0" both when muted and when the device
+	-- has no software volume control, so it can't distinguish the two. When the
+	-- level is 0 (or non-numeric), ask AppleScript, which returns "missing
+	-- value" only for devices without volume control.
+	if volume == nil or volume == 0 then
+		sbar.exec('osascript -e "output volume of (get volume settings)"', function(result)
+			local actual = tonumber(result)
+			if actual == nil then
+				volume_render_no_control()
+			else
+				volume_render(actual)
+			end
+		end)
+		return
+	end
+
+	volume_render(volume)
 end)
 
 local function volume_collapse_details()
