@@ -116,6 +116,17 @@ require('lazy').setup {
       }
     end,
   },
+  {
+    -- Live, in-browser preview for .typ files (updates as you type).
+    'chomosuke/typst-preview.nvim',
+    ft = 'typst',
+    version = '1.*',
+    -- Fetches the preview backend binary on install/update.
+    build = function()
+      require('typst-preview').update()
+    end,
+    opts = {},
+  },
 
   -- UI Ecosystem (Mini)
   {
@@ -302,7 +313,7 @@ require('lazy').setup {
     build = ':TSUpdate',
     main = 'nvim-treesitter.configs',
     opts = {
-      ensure_installed = { 'lua', 'c', 'vim', 'vimdoc', 'query', 'markdown' },
+      ensure_installed = { 'lua', 'c', 'vim', 'vimdoc', 'query', 'markdown', 'typst' },
       auto_install = true,
       highlight = { enable = true },
       indent = { enable = true },
@@ -358,9 +369,18 @@ require('lazy').setup {
         },
       }
 
+      -- tinymist: enable typstyle formatting so conform's lsp_format fallback
+      -- formats .typ on save (tinymist ships formatting disabled by default).
+      vim.lsp.config['tinymist'] = {
+        settings = {
+          formatterMode = 'typstyle',
+          exportPdf = 'never',
+        },
+      }
+
       -- Mason Handlers
       require('mason-lspconfig').setup {
-        ensure_installed = { 'lua_ls', 'ts_ls', 'pyright', 'gopls', 'rust_analyzer' },
+        ensure_installed = { 'lua_ls', 'ts_ls', 'pyright', 'gopls', 'rust_analyzer', 'tinymist' },
         handlers = {
           function(server_name)
             vim.lsp.enable(server_name)
@@ -490,6 +510,15 @@ vim.diagnostic.config {
 vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = 'Show diagnostic Error' })
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Previous Diagnostic' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Next Diagnostic' })
+
+-- Typst: buffer-local live-preview toggle ([C]ode [P]review)
+vim.api.nvim_create_autocmd('FileType', {
+  pattern = 'typst',
+  group = vim.api.nvim_create_augroup('typst-keymaps', { clear = true }),
+  callback = function(ev)
+    vim.keymap.set('n', '<leader>cp', '<cmd>TypstPreviewToggle<cr>', { buffer = ev.buf, desc = 'Typst Preview Toggle' })
+  end,
+})
 
 -- Highlight on Yank
 vim.api.nvim_create_autocmd('TextYankPost', {
