@@ -92,6 +92,10 @@ require('lazy').setup {
   },
   {
     'MeanderingProgrammer/render-markdown.nvim',
+    -- Pinned: v8.12.0 regressed heading/code rendering when `backgrounds = false`
+    -- (appends a `false` entry to the extmark hl-group list, which Neovim rejects
+    -- with "Invalid hl_group"). v8.11.0 is the last release that renders cleanly.
+    version = '~8.11.0',
     ft = { 'markdown', 'codecompanion' },
     opts = {
       heading = {
@@ -307,17 +311,44 @@ require('lazy').setup {
     },
   },
 
-  -- Treesitter
+  -- Treesitter (main branch — required for Neovim 0.12; the frozen master
+  -- branch is incompatible). No configs.setup/ensure_installed here: parsers are
+  -- installed via install(), highlighting is started per-buffer in a FileType
+  -- autocmd, and missing parsers are fetched on demand (replaces auto_install).
   {
     'nvim-treesitter/nvim-treesitter',
+    branch = 'main',
+    lazy = false, -- does not support lazy-loading
     build = ':TSUpdate',
-    main = 'nvim-treesitter.configs',
-    opts = {
-      ensure_installed = { 'lua', 'c', 'vim', 'vimdoc', 'query', 'markdown', 'typst' },
-      auto_install = true,
-      highlight = { enable = true },
-      indent = { enable = true },
-    },
+    config = function()
+      -- Curated set covering the languages this config actually edits.
+      require('nvim-treesitter').install {
+        'lua', 'c', 'vim', 'vimdoc', 'query',
+        'markdown', 'markdown_inline', -- markdown_inline is needed for injections
+        'typst', 'nix', 'bash', 'python', 'go', 'rust', 'toml',
+        'json', 'yaml', 'javascript', 'typescript', 'tsx', 'html', 'css',
+      }
+
+      vim.api.nvim_create_autocmd('FileType', {
+        group = vim.api.nvim_create_augroup('treesitter-start', { clear = true }),
+        callback = function(ev)
+          local lang = vim.treesitter.language.get_lang(vim.bo[ev.buf].filetype)
+          if not lang then
+            return
+          end
+          if pcall(vim.treesitter.language.add, lang) then
+            -- Highlighting (Neovim built-in) + experimental TS indentation.
+            pcall(vim.treesitter.start, ev.buf, lang)
+            vim.bo[ev.buf].indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
+          else
+            -- Parser not installed yet: fetch it (async) so it's ready next open.
+            pcall(function()
+              require('nvim-treesitter').install(lang)
+            end)
+          end
+        end,
+      })
+    end,
   },
 
   -- Formatting
@@ -378,18 +409,50 @@ require('lazy').setup {
         },
       }
 
-      -- Mason Handlers
+      -- Mason installs the binaries; mason-lspconfig auto-enables every installed
+      -- server via vim.lsp.enable (automatic_enable, default true). rust_analyzer is
+      -- excluded because rustaceanvim owns its client — enabling both double-attaches.
       require('mason-lspconfig').setup {
         ensure_installed = { 'lua_ls', 'ts_ls', 'pyright', 'gopls', 'rust_analyzer', 'tinymist' },
-        handlers = {
-          function(server_name)
-            vim.lsp.enable(server_name)
-          end,
+        automatic_enable = {
+          exclude = { 'rust_analyzer' },
         },
       }
 
       -- nixd is installed via Nix (not Mason); enable it directly.
       vim.lsp.enable 'nixd'
+    end,
+  },
+  {
+    'mrcjkb/rustaceanvim',
+    version = '^8', -- v9 requires Neovim 0.12; v8 supports the pinned 0.11
+    lazy = false, -- plugin lazy-loads itself on the rust filetype
+    init = function()
+      vim.g.rustaceanvim = {
+        server = {
+          -- rustaceanvim does not read the global vim.lsp.config('*'), so pass blink caps explicitly.
+          capabilities = require('blink.cmp').get_lsp_capabilities(),
+          on_attach = function(_, bufnr)
+            local map = function(keys, fn, desc)
+              vim.keymap.set({ 'n', 'x' }, keys, fn, { buffer = bufnr, silent = true, desc = desc })
+            end
+            -- Code fixes (grouped rust-analyzer code actions)
+            map('<leader>ca', function()
+              vim.cmd.RustLsp 'codeAction'
+            end, '[C]ode [A]ction')
+            map('<leader>ce', function()
+              vim.cmd.RustLsp 'explainError'
+            end, '[C]ode [E]xplain error')
+            map('<leader>cd', function()
+              vim.cmd.RustLsp 'renderDiagnostic'
+            end, '[C]ode render [D]iagnostic')
+            -- Hover with actions (overrides default K in rust buffers)
+            vim.keymap.set('n', 'K', function()
+              vim.cmd.RustLsp { 'hover', 'actions' }
+            end, { buffer = bufnr, silent = true, desc = 'Hover actions' })
+          end,
+        },
+      }
     end,
   },
   {
