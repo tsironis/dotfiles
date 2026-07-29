@@ -92,10 +92,7 @@
       # "aria2"  # download tool
       "lua"
       "git-lfs"
-      # neovim is installed as the official self-contained 0.11.x release at
-      # ~/.local/opt (symlinked into ~/.local/bin), not via brew: the brew build
-      # tracks latest stable (0.12+), which is ahead of the plugin ecosystem
-      # (render-markdown, treesitter). Pinning 0.11 keeps plugins compatible.
+      "neovim"
       "tree-sitter-cli" # parser compiler for nvim-treesitter (main branch)
       "fswatch"
       "starship"
