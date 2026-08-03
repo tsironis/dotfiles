@@ -74,3 +74,12 @@ vim.o.scrolloff = 4
 
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.o.hlsearch = true
+
+-- Match the 80-column hard wrap that conform applies to markdown on save, so
+-- `gqip` mid-edit produces the same result the formatter would.
+vim.api.nvim_create_autocmd('FileType', {
+  pattern = 'markdown',
+  callback = function()
+    vim.opt_local.textwidth = 80
+  end,
+})

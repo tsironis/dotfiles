@@ -359,15 +359,36 @@ require('lazy').setup {
     opts = {
       formatters_by_ft = {
         lua = { 'stylua' },
-        javascript = { 'prettierd', 'prettier', stop_after_first = true },
-        typescript = { 'prettierd', 'prettier', stop_after_first = true },
-        markdown = { 'prettierd', 'prettier', stop_after_first = true },
+        javascript = { 'prettier' },
+        typescript = { 'prettier' },
+        markdown = { 'markdown_prettier' },
         nix = { 'alejandra' },
         sh = { 'shfmt' },
         bash = { 'shfmt' },
       },
+      formatters = {
+        -- Prose is hard-wrapped at 80 on every save, so editing mid-paragraph
+        -- never leaves ragged trailing lines. The flags are passed on the CLI
+        -- (rather than via a .prettierrc) so the width wins over whatever
+        -- prettier config the surrounding repo happens to ship.
+        markdown_prettier = {
+          command = 'prettier',
+          args = {
+            '--stdin-filepath',
+            '$FILENAME',
+            '--parser',
+            'markdown',
+            '--prose-wrap',
+            'always',
+            '--print-width',
+            '80',
+          },
+          stdin = true,
+        },
+      },
       format_on_save = {
-        timeout_ms = 500,
+        -- Generous: prettier is a cold node start, not a daemon.
+        timeout_ms = 3000,
         lsp_format = 'fallback',
       },
     },

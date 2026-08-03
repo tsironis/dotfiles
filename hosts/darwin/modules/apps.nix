@@ -107,6 +107,7 @@
       "tree"
       "sketchybar"
       "stylua"
+      "prettier" # markdown/js/ts formatter (used by nvim conform)
       "borders"
       "elixir"
       "elixir"
