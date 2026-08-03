@@ -159,7 +159,12 @@
       "autodesk-fusion"
       "signal"
       "figma"
-      "claude-code"
+      # claude-code: intentionally NOT a cask. Installed via the native self-updating
+      # installer (~/.local/bin/claude) so it tracks the `latest` channel and auto-updates
+      # in the background — the cask lags ~1 week and doesn't self-update. See the
+      # bootstrapClaudeCode activation in home/darwin.nix. NOTE: the cask's zap stanza
+      # deletes ~/.claude and the native install, so if you ever re-add it, uninstall with
+      # a plain `brew uninstall --cask claude-code` (not --zap) before rebuilding.
       "git-credential-manager"
       "quarto"
       # "battery"
