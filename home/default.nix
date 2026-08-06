@@ -3,6 +3,7 @@
 {
   imports = [
     ./zsh.nix
+    ./claude.nix
     ./programs.nix
     ./darwin.nix  # guarded internally with mkIf isDarwin
   ];
