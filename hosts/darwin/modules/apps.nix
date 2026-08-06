@@ -130,6 +130,8 @@
       "bat"
       "docker-mac-net-connect"
       "tuicr"
+      "icdiff"
+      "aha"
     ];
 
     # `brew install --cask`

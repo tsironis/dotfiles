@@ -28,6 +28,41 @@ export FZF_DEFAULT_OPTS="\
   --color=marker:#8ae234,fg+:#eeeeec,prompt:#fce94f,hl+:#729fcf"
 export BAT_THEME="ansi"
 
+# hdiff — side-by-side diff of two files, rendered to HTML and opened in the browser.
+# Defaults to a temp dir so nothing is left behind in the working tree; -o pins
+# the output path. Override the render width with HDIFF_COLS (default 200).
+hdiff() {
+  local -a o_flag
+  zparseopts -D -E -- o:=o_flag || return 1
+
+  if (( $# != 2 )); then
+    print -u2 'usage: hdiff [-o out.html] <file-a> <file-b>'
+    return 1
+  fi
+
+  local f
+  for f in "$1" "$2"; do
+    if [[ ! -f $f ]]; then
+      print -u2 "hdiff: not a file: $f"
+      return 1
+    fi
+  done
+
+  if cmp -s -- "$1" "$2"; then
+    print "hdiff: files are identical"
+    return 0
+  fi
+
+  local out=${o_flag[2]:-"$(mktemp -d)/${1:t:r}-vs-${2:t:r}.html"}
+  if [[ ! -d ${out:h} ]]; then
+    print -u2 "hdiff: no such directory: ${out:h}"
+    return 1
+  fi
+  icdiff --cols="${HDIFF_COLS:-200}" --highlight --line-numbers -- "$1" "$2" \
+    | aha --black --title "${1:t} vs ${2:t}" > "$out"
+  open "$out"
+}
+
 # dir aliases
 alias ..='cd ..'
 alias ...='cd ../..'
