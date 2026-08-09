@@ -92,6 +92,8 @@
     # TODO Feel free to add your favorite apps here.
     brews = [
       # "aria2"  # download tool
+      "ffmpeg" # audio/video I/O for Demucs (music -> drum stem separation)
+      "yt-dlp" # YouTube audio download for midi-conversion (pulls in deno, fixing its JS-runtime warning)
       "lua"
       "git-lfs"
       "neovim"
