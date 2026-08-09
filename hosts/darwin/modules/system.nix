@@ -67,6 +67,9 @@
          location = "~/screenshots";
          type = "png";
        };
+      universalaccess = {
+        reduceTransparency = true;  # reduce transparency (Accessibility > Display)
+      };
     };
     keyboard = {
         enableKeyMapping = true;  # enable key mapping so that we can use `option` as `control`
