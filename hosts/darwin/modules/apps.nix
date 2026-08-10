@@ -172,6 +172,7 @@
       "git-credential-manager"
       "quarto"
       # "battery"
+      "musescore"
     ];
   };
 
