@@ -1,0 +1,32 @@
+# Pandoc defaults for the markdown -> typst -> PDF route. Driven by ./render-pdf.sh,
+# which sets the MMDC / PUPPETEER_CFG / MERMAID_CFG / DIAGRAM_DIR env vars the filter reads.
+#
+# margin is a nested map, which -V cannot express, hence a defaults file rather than flags.
+#
+# mermaid.lua is NOT listed here under `filters:` — that path is resolved relative to pandoc's
+# CWD, which breaks once this tool is invoked from an arbitrary project directory. render-pdf.sh
+# passes it instead via --lua-filter with an absolute path.
+to: typst
+pdf-engine: typst
+
+# The filter emits raw typst image() calls with absolute paths, and typst resolves image
+# paths against its root rather than the CWD. Without this the diagrams are "file not found".
+pdf-engine-opts:
+  - --root=/
+
+variables:
+  papersize: a4
+  margin:
+    x: 2cm
+    y: 2.2cm
+  # Second choice in bin/print.css, and the first one that actually works here: the macOS
+  # Charter.ttc ships no upright bold, so with Charter every heading and every **bold**
+  # run in the document silently renders at regular weight.
+  mainfont: Georgia
+  fontsize: 10.5pt
+  linestretch: 1.25
+  page-numbering: "1"
+  # The document uses one `#` for the title and `###` for every section, so without this
+  # the section heads come out at body size.
+  header-includes: |
+    #show heading.where(level: 3): set text(size: 1.2em)

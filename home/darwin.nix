@@ -24,6 +24,17 @@ in
       force = true;
     };
 
+    # Markdown -> Typst -> PDF renderer (with mermaid diagrams as vector SVG). Needs
+    # pandoc, typst, and mmdc (npm install -g @mermaid-js/mermaid-cli) on PATH.
+    #
+    # No `executable = true` here: it doesn't combine with mkOutOfStoreSymlink (home-manager
+    # tries to build a derivation to set the bit, which fails against a live out-of-store path).
+    # Unnecessary anyway — render-pdf.sh is chmod +x'd in the repo itself, and the symlink
+    # follows through to those same permission bits.
+    home.file.".local/bin/render-pdf" = {
+      source = config.lib.file.mkOutOfStoreSymlink "${dotfiles}/render-pdf/render-pdf.sh";
+    };
+
     # Claude Code is installed via its native self-updating installer (not Homebrew), so it
     # tracks the `latest` channel and auto-updates in the background. This bootstraps it on a
     # fresh machine only when missing; existing self-updating installs are left untouched.

@@ -16,6 +16,7 @@ swap when forking — see [Forking for your own machine](#forking-for-your-own-m
 | `home/` | home-manager: zsh, program configs, macOS-only app symlinks |
 | `nvim/` | Neovim config (kickstart-based) |
 | `zsh/`, `ghostty/`, `aerospace/`, `sketchybar/` | App configs, symlinked into `~/.config` |
+| `render-pdf/` | `render-pdf` CLI: markdown → Typst → PDF, mermaid diagrams as vector SVG. Symlinked to `~/.local/bin/render-pdf` |
 | `Makefile` | Convenience targets (`darwin`, `linux`, `update`, `fmt`) |
 
 Config dirs like `nvim`, `ghostty`, `aerospace`, and `sketchybar` are linked
@@ -27,6 +28,9 @@ via `mkOutOfStoreSymlink`, so edits take effect immediately without a rebuild.
 - macOS: nix-darwin is bootstrapped on first `make darwin`.
 - This repo cloned to `~/code/dotfiles` (the home-manager symlinks assume this
   path — see `home/*.nix` if you keep it elsewhere).
+- `render-pdf` additionally needs `pandoc`, `typst` (`brew install pandoc typst`),
+  and `mmdc` (`npm install -g @mermaid-js/mermaid-cli`) on PATH — not managed by
+  Nix, install manually. See `render-pdf/` for details.
 
 ## Forking for your own machine
 
