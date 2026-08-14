@@ -35,6 +35,15 @@ in
       source = config.lib.file.mkOutOfStoreSymlink "${dotfiles}/render-pdf/render-pdf.sh";
     };
 
+    # fzf-driven zellij session picker, moved into the repo from its previous
+    # untracked location at ~/.local/bin/zellij-sessionizer. `force = true` because
+    # that path is occupied by a real (non-symlink) file on any machine that had it
+    # before this switch — same reason ghostty/aerospace/sketchybar use `force` above.
+    home.file.".local/bin/zellij-sessionizer" = {
+      source = config.lib.file.mkOutOfStoreSymlink "${dotfiles}/zellij-sessionizer/zellij-sessionizer.sh";
+      force = true;
+    };
+
     # Claude Code is installed via its native self-updating installer (not Homebrew), so it
     # tracks the `latest` channel and auto-updates in the background. This bootstraps it on a
     # fresh machine only when missing; existing self-updating installs are left untouched.
@@ -46,6 +55,18 @@ in
       fi
     '';
 
+    # openproject-cli isn't packaged in nixpkgs/Homebrew — only distributed via
+    # `go install` or GitHub Releases binaries. Bootstrapped via the Go toolchain
+    # (already in environment.systemPackages) the same way Claude Code's native
+    # installer is bootstrapped above. Non-fatal so a rebuild never fails on a
+    # transient network issue.
+    home.activation.bootstrapOpenprojectCli = lib.hm.dag.entryAfter ["writeBoundary"] ''
+      if [ ! -e "$HOME/go/bin/openproject-cli" ]; then
+        verboseEcho "Bootstrapping openproject-cli via go install"
+        ${pkgs.go}/bin/go install github.com/opf/openproject-cli@latest || true
+      fi
+    '';
+
     # Native installer's launcher lives here; keep it on PATH declaratively for fresh machines.
-    home.sessionPath = ["$HOME/.local/bin"];
+    home.sessionPath = ["$HOME/.local/bin" "$HOME/go/bin"];
   }
