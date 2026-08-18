@@ -134,6 +134,7 @@
       "tuicr"
       "icdiff"
       "aha"
+      "bun"
     ];
 
     # `brew install --cask`

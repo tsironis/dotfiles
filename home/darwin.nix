@@ -80,5 +80,8 @@ in
     '';
 
     # Native installer's launcher lives here; keep it on PATH declaratively for fresh machines.
-    home.sessionPath = ["$HOME/.local/bin" "$HOME/go/bin"];
+    # $HOME/.bun/bin: bun's own global install dir (e.g. `bun install -g` packages like
+    # mulch's `ml`/`mulch` binaries) — bun itself isn't Nix-managed, so this isn't bootstrapped
+    # by an activation script above; installing bun is left to the user.
+    home.sessionPath = ["$HOME/.local/bin" "$HOME/go/bin" "$HOME/.bun/bin"];
   }

@@ -15,3 +15,11 @@ projects:
     description: ""
     repo: ""
     last_touched: "2026-08-17"
+  - name: themelio
+    path: /Users/dimitristsironis/geant/themelio
+    category: ""
+    owner: work
+    status: active
+    description: ""
+    repo: ""
+    last_touched: "2026-08-18"
