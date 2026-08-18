@@ -540,6 +540,7 @@ require('lazy').setup {
 
 -- 4. KEYMAPS
 vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', { desc = 'Save File' })
+vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>', { desc = 'Clear search highlight' })
 
 -- oil.nvim
 vim.keymap.set('n', '-', '<CMD>Oil<CR>', { desc = 'Open parent directory' })
