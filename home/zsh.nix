@@ -6,4 +6,7 @@ in
 {
   home.file.".zshrc".source =
     config.lib.file.mkOutOfStoreSymlink "${dotfiles}/zsh/.zshrc";
+
+  home.file.".zshenv".source =
+    config.lib.file.mkOutOfStoreSymlink "${dotfiles}/zsh/.zshenv";
 }
