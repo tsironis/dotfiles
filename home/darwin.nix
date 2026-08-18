@@ -44,6 +44,18 @@ in
       force = true;
     };
 
+    # Personal projects tracker: thin CLI over projects/projects.yaml. Needs yq
+    # (already a brew dependency, see hosts/darwin/modules/apps.nix) on PATH.
+    home.file.".local/bin/projects" = {
+      source = config.lib.file.mkOutOfStoreSymlink "${dotfiles}/projects/projects.sh";
+    };
+
+    # Manually curated registry of installed CLI tools (see tools-registry/). Needs
+    # yq on PATH, same as above.
+    home.file.".local/bin/tools-registry" = {
+      source = config.lib.file.mkOutOfStoreSymlink "${dotfiles}/tools-registry/tools-registry.sh";
+    };
+
     # Claude Code is installed via its native self-updating installer (not Homebrew), so it
     # tracks the `latest` channel and auto-updates in the background. This bootstraps it on a
     # fresh machine only when missing; existing self-updating installs are left untouched.

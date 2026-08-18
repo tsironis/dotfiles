@@ -1,0 +1,32 @@
+tools:
+  - name: projects
+    description: "CLI for the personal projects tracker (list/add/filter tracked repos)."
+    source: nix-managed
+
+  - name: tools-registry
+    description: "CLI for this tool/utils registry itself."
+    source: nix-managed
+
+  - name: zellij-sessionizer
+    description: "fzf-driven zellij session picker/creator for project directories."
+    source: nix-managed
+
+  - name: render-pdf
+    description: "Markdown -> Typst -> PDF renderer with mermaid diagrams as vector SVG."
+    source: nix-managed
+
+  - name: glab
+    description: "GitLab CLI."
+    source: homebrew
+
+  - name: gh
+    description: "GitHub CLI."
+    source: homebrew
+
+  - name: openproject-cli
+    description: "OpenProject CLI; not packaged in nixpkgs/Homebrew, bootstrapped via go install."
+    source: go-install
+
+  - name: hdiff
+    description: "Side-by-side diff of two files, rendered to HTML and opened in the browser."
+    source: nix-managed

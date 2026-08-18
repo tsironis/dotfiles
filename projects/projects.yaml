@@ -1,0 +1,17 @@
+projects:
+  - name: dotfiles
+    path: /Users/dimitristsironis/code/dotfiles
+    category: quality-of-life
+    owner: personal
+    status: active
+    description: "Nix/nix-darwin + home-manager machine configuration."
+    repo: "git@github.com:tsironis/dotfiles.git"
+    last_touched: "2026-08-14"
+  - name: wyteboard
+    path: /Users/dimitristsironis/code/wyteboard
+    category: ""
+    owner: personal
+    status: active
+    description: ""
+    repo: ""
+    last_touched: "2026-08-17"

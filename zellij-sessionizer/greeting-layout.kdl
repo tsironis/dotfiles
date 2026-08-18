@@ -1,0 +1,3 @@
+layout {
+    pane command="/Users/dimitristsironis/code/dotfiles/zellij-sessionizer/greet.sh" close_on_exit=true
+}

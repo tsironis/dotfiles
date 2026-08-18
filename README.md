@@ -17,6 +17,9 @@ swap when forking — see [Forking for your own machine](#forking-for-your-own-m
 | `nvim/` | Neovim config (kickstart-based) |
 | `zsh/`, `ghostty/`, `aerospace/`, `sketchybar/` | App configs, symlinked into `~/.config` |
 | `render-pdf/` | `render-pdf` CLI: markdown → Typst → PDF, mermaid diagrams as vector SVG. Symlinked to `~/.local/bin/render-pdf` |
+| `zellij-sessionizer/` | fzf-driven zellij project picker, bound to `f` in `zellij/config.kdl`. Symlinked to `~/.local/bin/zellij-sessionizer` |
+| `projects/` | `projects` CLI: personal/work project tracker (category, owner, status). Symlinked to `~/.local/bin/projects` |
+| `tools-registry/` | `tools-registry` CLI: manually curated index of available CLI tools. Symlinked to `~/.local/bin/tools-registry` |
 | `Makefile` | Convenience targets (`darwin`, `linux`, `update`, `fmt`) |
 
 Config dirs like `nvim`, `ghostty`, `aerospace`, and `sketchybar` are linked
@@ -31,6 +34,8 @@ via `mkOutOfStoreSymlink`, so edits take effect immediately without a rebuild.
 - `render-pdf` additionally needs `pandoc`, `typst` (`brew install pandoc typst`),
   and `mmdc` (`npm install -g @mermaid-js/mermaid-cli`) on PATH — not managed by
   Nix, install manually. See `render-pdf/` for details.
+- `projects` and `tools-registry` need `yq` on PATH — already installed via
+  Homebrew, see `hosts/darwin/modules/apps.nix`.
 
 ## Forking for your own machine
 
