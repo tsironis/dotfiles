@@ -5,6 +5,8 @@
 --   PUPPETEER_CFG  puppeteer launch flags, reused from docs/plugins/mermaid-png/
 --   MERMAID_CFG    mermaid runtime config; htmlLabels:false is what makes the SVG usable
 --   DIAGRAM_DIR    cache directory for the rendered SVGs
+--   TEXT_BLOCK_ASPECT  optional; overrides the tall-diagram cutoff for a style whose
+--                      margins differ from pdf-defaults.yaml
 --
 -- Diagrams are keyed by a hash of their source, so an unchanged diagram is never re-rendered.
 -- Same approach as docs/plugins/mermaid-png/index.ts, in SVG rather than PNG.
@@ -16,7 +18,9 @@ local DIAGRAM_DIR = os.getenv('DIAGRAM_DIR') or 'diagrams'
 
 -- Diagrams taller than the A4 text block (17cm x 25.3cm at the margins in pdf-defaults.yaml)
 -- cannot fit beside prose, so they get a page of their own. Wider ones stay inline.
-local TEXT_BLOCK_ASPECT = 0.67
+-- A style with different margins has a different text block, so render-pdf.sh overrides this
+-- via the environment (--academic sets 0.63 for its 16cm x 24.7cm block).
+local TEXT_BLOCK_ASPECT = tonumber(os.getenv('TEXT_BLOCK_ASPECT') or '') or 0.67
 
 local function quote(s)
   return "'" .. tostring(s):gsub("'", "'\\''") .. "'"

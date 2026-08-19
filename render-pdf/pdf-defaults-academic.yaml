@@ -1,0 +1,39 @@
+# Pandoc defaults for the academic style: `render-pdf --academic`. Standalone by design —
+# it duplicates the engine plumbing from pdf-defaults.yaml rather than layering on top of it,
+# so each style is readable in one file and free to diverge. See pdf-defaults.yaml for the
+# rationale behind the shared bits (typst route, --root=/, why a defaults file at all).
+to: typst
+pdf-engine: typst
+
+# Load-bearing: the mermaid filter emits raw typst image() calls with absolute paths, and
+# typst resolves image paths against its root rather than the CWD.
+pdf-engine-opts:
+  - --root=/
+
+# Resolves [@citekey] refs and appends a References section. A no-op unless the document's
+# own frontmatter declares `bibliography:` (and optionally `csl:`), so it costs nothing on a
+# paper that has no sources yet.
+citeproc: true
+
+# citeproc emits the bibliography with no heading of its own; a paper wants one. A document
+# can override this in its own frontmatter (e.g. `reference-section-title: Bibliography`).
+metadata:
+  reference-section-title: References
+
+variables:
+  papersize: a4
+  margin:
+    x: 2.5cm
+    y: 2.5cm
+  # Bundled with the typst binary, so nothing to install — and unlike Charter (see
+  # pdf-defaults.yaml) it ships a real upright bold, so headings and **bold** runs survive.
+  mainfont: New Computer Modern
+  fontsize: 11pt
+  linestretch: 1.5
+  page-numbering: "1"
+  # No `#show heading.where(level: 3)` rule here, deliberately: under this style the title
+  # comes from frontmatter `title:`, so `#` is a real section and the template's own heading
+  # scale is already correct.
+  header-includes: |
+    #set par(justify: true, first-line-indent: 1.2em)
+    #show heading: set block(above: 1.4em, below: 0.8em)
