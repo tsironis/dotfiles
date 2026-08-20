@@ -52,6 +52,13 @@ in
       force = true;
     };
 
+    # Reflects an agent CLI's working/blocked/idle state in the current zellij
+    # tab name (see agent-status/README.md). Opt-in, run manually in place of
+    # the agent command -- not wired into zellij-sessionizer/greet.sh.
+    home.file.".local/bin/agent-status-wrap" = {
+      source = config.lib.file.mkOutOfStoreSymlink "${dotfiles}/agent-status/agent-status-wrap.sh";
+    };
+
     # Personal projects tracker: thin CLI over projects/projects.yaml. Needs yq
     # (already a brew dependency, see hosts/darwin/modules/apps.nix) on PATH.
     home.file.".local/bin/projects" = {

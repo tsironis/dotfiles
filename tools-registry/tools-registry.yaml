@@ -19,6 +19,10 @@ tools:
     description: "PDF -> plain text and annotations via PyMuPDF (uv run --script), for cheap local reading instead of vision-based page parsing."
     source: nix-managed
 
+  - name: agent-status-wrap
+    description: "Wraps an agent CLI (Claude Code) and reflects its working/blocked/idle state in the current zellij tab name."
+    source: nix-managed
+
   - name: glab
     description: "GitLab CLI."
     source: homebrew
