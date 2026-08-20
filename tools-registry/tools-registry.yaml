@@ -15,6 +15,10 @@ tools:
     description: "Markdown -> Typst -> PDF renderer with mermaid diagrams as vector SVG."
     source: nix-managed
 
+  - name: read-pdf
+    description: "PDF -> plain text and annotations via PyMuPDF (uv run --script), for cheap local reading instead of vision-based page parsing."
+    source: nix-managed
+
   - name: glab
     description: "GitLab CLI."
     source: homebrew

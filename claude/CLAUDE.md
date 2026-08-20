@@ -17,3 +17,14 @@ agree on a plan, wait for my explicit approval before proceeding.
 ## Commit and Pull Requests
 
 Do not add Claude Code, Anthropic, or Opus insignia
+
+## PDF handling
+
+For text-based PDFs, extract text with the local `read-pdf` tool (via Bash) instead of
+reading the PDF directly. `read-pdf <file.pdf>` prints the extracted text to stdout,
+`read-pdf --pages START-END <file.pdf>` limits it to a page range, and `read-pdf --annots
+<file.pdf>` also prints annotation/comment text (sticky notes, highlights). This avoids
+the token cost of parsing each page as an image.
+
+If `read-pdf` returns little or no text, the PDF is scanned or image-only, so fall back to
+reading it directly (page-image parsing) instead.

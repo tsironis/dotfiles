@@ -35,6 +35,14 @@ in
       source = config.lib.file.mkOutOfStoreSymlink "${dotfiles}/render-pdf/render-pdf.sh";
     };
 
+    # PDF -> plain text (and, on request, annotations) via PyMuPDF, run through `uv run
+    # --script` so its dependency is installed into an ephemeral venv on first use rather
+    # than needing a Nix/Homebrew package. The opposite direction of render-pdf: for
+    # reading a PDF's text cheaply instead of parsing it page-by-page as images.
+    home.file.".local/bin/read-pdf" = {
+      source = config.lib.file.mkOutOfStoreSymlink "${dotfiles}/read-pdf/read-pdf.py";
+    };
+
     # fzf-driven zellij session picker, moved into the repo from its previous
     # untracked location at ~/.local/bin/zellij-sessionizer. `force = true` because
     # that path is occupied by a real (non-symlink) file on any machine that had it
