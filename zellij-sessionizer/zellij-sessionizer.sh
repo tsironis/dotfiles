@@ -70,4 +70,7 @@ zellij action rename-tab $session_name
 # (tracked-project info / tools-registry pointer) — this is the branch the `f`
 # keybind actually reaches day to day, since pressing it always implies being
 # inside zellij already.
-zellij action write-chars "clear && cd $selected_path && $HERE/greet.sh" && zellij action write 10
+# `exec` the whole thing: greet.sh itself execs a login shell, so without this
+# exec that final shell stays a *child* of the tab's original shell instead of
+# replacing it, requiring two `exit`s to close the pane.
+zellij action write-chars "clear && cd $selected_path && exec $HERE/greet.sh" && zellij action write 10
