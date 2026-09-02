@@ -13,6 +13,8 @@ agree on a plan, wait for my explicit approval before proceeding.
   2–4 supporting sentences, and a concluding transition, breaking to a new
   paragraph if it exceeds 5 sentences or shifts focus. This help guide the
   reader and make your point more clear.
+- Avoid lingo such as "gate", "surface", "gate the surfaces", "load-bearing",
+  "wired up", "blast radius", "Substrate" / "Spine" / "Seams" etc.
 
 ## Commit and Pull Requests
 
@@ -20,11 +22,12 @@ Do not add Claude Code, Anthropic, or Opus insignia
 
 ## PDF handling
 
-For text-based PDFs, extract text with the local `read-pdf` tool (via Bash) instead of
-reading the PDF directly. `read-pdf <file.pdf>` prints the extracted text to stdout,
-`read-pdf --pages START-END <file.pdf>` limits it to a page range, and `read-pdf --annots
-<file.pdf>` also prints annotation/comment text (sticky notes, highlights). This avoids
-the token cost of parsing each page as an image.
+For text-based PDFs, extract text with the local `read-pdf` tool (via Bash)
+instead of reading the PDF directly. `read-pdf <file.pdf>` prints the extracted
+text to stdout, `read-pdf --pages START-END <file.pdf>` limits it to a page
+range, and `read-pdf --annots <file.pdf>` also prints annotation/comment text
+(sticky notes, highlights). This avoids the token cost of parsing each page as
+an image.
 
-If `read-pdf` returns little or no text, the PDF is scanned or image-only, so fall back to
-reading it directly (page-image parsing) instead.
+If `read-pdf` returns little or no text, the PDF is scanned or image-only, so
+fall back to reading it directly (page-image parsing) instead.
