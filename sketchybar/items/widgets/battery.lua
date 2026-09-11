@@ -27,8 +27,22 @@ for root in d.get("SPBluetoothDataType", []):
             ls = levels(dev)
             if ls: print("%s=%d" % (name, min(ls)))
 ']]
-local MAX_BT_ROWS = 5
+-- A split keyboard reports one row per half ("Cherry Plum R" / "Cherry Plum L"),
+-- so one device can occupy two rows.
+local MAX_BT_ROWS = 6
 local BT_LOW = 20  -- a connected device at/below this % flags the bar indicator
+-- The trackball half of the keyboard drains a full charge in about a week, and
+-- letting it reach 0% is not merely inconvenient: macOS reacts to a BLE HID at
+-- 0% by polling its battery characteristic ~33 times a second, which saturates
+-- the connection and makes the keyboard appear to freeze. Warn earlier for
+-- keyboards so there is time to charge.
+local BT_LOW_KEYBOARD = 30
+
+-- Last known readings, so a helper timeout blanks nothing. The helper takes a
+-- few seconds and only runs every update_freq, so without this a single missed
+-- read makes rows disappear and reappear.
+local BT_STATE_FILE = os.getenv("HOME") .. "/.cache/sketchybar/bt_battery"
+local BT_STATE_STALE = 24 * 60 * 60  -- forget a device unseen for this long
 
 local battery = sbar.add("item", "widgets.battery", {
   position = "right",
@@ -106,23 +120,115 @@ local function bt_color_for(pct)
   return colors.green
 end
 
+local function bt_low_for(name)
+  if bt_icon_for(name) == icons.keyboard then
+    return BT_LOW_KEYBOARD
+  end
+  return BT_LOW
+end
+
+-- "Cherry Plum R" and "Cherry Plum L" are two halves of one physical device, so
+-- they share a bar indicator driven by whichever half is worse.
+local function bt_base_name(name)
+  return name:match("^(.-)%s+[RL]$")
+      or name:match("^(.-)%s+main$")
+      or name:match("^(.-)%s+aux$")
+      or name
+end
+
+local function bt_state_load()
+  local f = io.open(BT_STATE_FILE, "r")
+  if not f then return {} end
+  local now, out = os.time(), {}
+  for line in f:lines() do
+    local name, pct, seen = line:match("^(.-)=(%d+)=(%d+)$")
+    if name and now - tonumber(seen) <= BT_STATE_STALE then
+      out[#out + 1] = { name = name, pct = tonumber(pct), seen = tonumber(seen) }
+    end
+  end
+  f:close()
+  return out
+end
+
+local function bt_state_save(devices)
+  os.execute("mkdir -p " .. BT_STATE_FILE:match("^(.*)/[^/]*$"))
+  local f = io.open(BT_STATE_FILE, "w")
+  if not f then return end
+  for _, d in ipairs(devices) do
+    f:write(("%s=%d=%d\n"):format(d.name, d.pct, d.seen))
+  end
+  f:close()
+end
+
+local function bt_parse(out)
+  local devices = {}
+  for line in (out or ""):gmatch("[^\r\n]+") do
+    local name, pct = line:match("^(.-)=(%d+)$")
+    if name and pct then
+      devices[#devices + 1] = { name = name, pct = tonumber(pct) }
+    end
+  end
+  return devices
+end
+
+-- Overlay this run's readings onto the persisted ones, keeping row order stable
+-- and carrying forward anything the helper failed to read this time.
+local function bt_merge(persisted, fresh)
+  local now, merged, index = os.time(), {}, {}
+  for _, d in ipairs(persisted) do
+    merged[#merged + 1] = { name = d.name, pct = d.pct, seen = d.seen }
+    index[d.name] = #merged
+  end
+  for _, d in ipairs(fresh) do
+    local at = index[d.name]
+    if at then
+      merged[at].pct, merged[at].seen = d.pct, now
+    else
+      merged[#merged + 1] = { name = d.name, pct = d.pct, seen = now }
+      index[d.name] = #merged
+    end
+  end
+  return merged
+end
+
 local function refresh_bluetooth()
   sbar.exec(BT_HELPER, function(bleOut)
-    local devices = {}
-    for line in (bleOut or ""):gmatch("[^\r\n]+") do
-      local name, pct = line:match("^(.-)=(%d+)$")
-      if name and pct then
-        devices[#devices + 1] = { name = name, pct = tonumber(pct) }
-      end
-    end
+    -- Only the BLE helper's readings are persisted; system_profiler is cheap
+    -- and always available, so its devices are read fresh each time.
+    local devices = bt_merge(bt_state_load(), bt_parse(bleOut))
+    bt_state_save(devices)
+
     sbar.exec(BT_SYSPROFILE, function(spOut)
-      for line in (spOut or ""):gmatch("[^\r\n]+") do
-        local name, pct = line:match("^(.-)=(%d+)$")
-        if name and pct then
-          devices[#devices + 1] = { name = name, pct = tonumber(pct) }
+      -- A device can show up in both sources: the MX Vertical exposes GATT
+      -- 0x180F to the helper and is also surfaced by system_profiler. Prefer
+      -- the helper's direct read, which is the one that resolves split halves.
+      local seen = {}
+      for _, d in ipairs(devices) do seen[bt_base_name(d.name)] = true end
+      for _, d in ipairs(bt_parse(spOut)) do
+        local base = bt_base_name(d.name)
+        if not seen[base] then
+          devices[#devices + 1] = d
+          seen[base] = true
         end
       end
-      local low = {}
+
+      -- Collapse the halves of a split device to its worst reading, so one
+      -- physical device raises at most one indicator and a flat half is never
+      -- hidden behind a healthy one.
+      local low, low_index = {}, {}
+      for _, d in ipairs(devices) do
+        if d.pct <= bt_low_for(d.name) then
+          local base = bt_base_name(d.name)
+          local at = low_index[base]
+          if at then
+            if d.pct < low[at].pct then low[at].pct = d.pct end
+          else
+            low[#low + 1] = { name = base, pct = d.pct }
+            low_index[base] = #low
+          end
+        end
+      end
+
       for i = 1, MAX_BT_ROWS do
         local d = devices[i]
         if d then
@@ -131,7 +237,6 @@ local function refresh_bluetooth()
             icon = { string = bt_icon_for(d.name) .. " " .. d.name },
             label = { string = d.pct .. "%", color = bt_color_for(d.pct) },
           })
-          if d.pct <= BT_LOW then low[#low + 1] = d end
         else
           bt_rows[i]:set({ drawing = false })
         end
