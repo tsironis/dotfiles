@@ -58,6 +58,7 @@
         "sst/tap/opencode"
         "chipmk/tap/docker-mac-net-connect"
         "agavra/tap/tuicr"
+        "schpet/tap/linear"
       ];
       casks = [
         "nikitabobko/tap/aerospace"
@@ -85,6 +86,7 @@
       "sst/tap"
       "chipmk/tap"
       "agavra/tap"
+      "schpet/tap"
     ];
 
     masApps = {
@@ -131,6 +133,7 @@
       "glab"
       "flyctl"
       "gh"
+      "linear" # community Linear issue-tracker CLI (schpet/tap); on trial, see docs/unified-tracker/linear-trial.md
       "yq"
       "zoxide"
       "bat"

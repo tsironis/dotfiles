@@ -1,0 +1,628 @@
+<title>Unified Tracker</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,ital@9..144,400..700,0..1&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+  :root{
+    --paper: #EDEFF2;
+    --surface: #FFFFFF;
+    --surface-2: #F5F6F8;
+    --ink: #1F2430;
+    --ink-soft: #4B5563;
+    --ink-faint: #7A8391;
+    --line: #C7CDD6;
+    --line-soft: #DBDFE5;
+
+    --amber: #B96A16;
+    --amber-soft: #F0DDBE;
+    --teal: #21625F;
+    --teal-soft: #D3E4E1;
+    --violet: #5D4E80;
+    --violet-soft: #E1DBEC;
+    --plum: #833F58;
+    --plum-soft: #ECD7DF;
+    --steel: #305F87;
+    --steel-soft: #D6E2EB;
+
+    --shadow: 0 1px 2px rgba(31,36,48,0.06), 0 8px 24px -12px rgba(31,36,48,0.18);
+  }
+
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper: #14181F;
+      --surface: #1B212B;
+      --surface-2: #202733;
+      --ink: #E9E8E2;
+      --ink-soft: #AEB5C0;
+      --ink-faint: #7E8794;
+      --line: #313A47;
+      --line-soft: #262E3A;
+
+      --amber: #E3A24C;
+      --amber-soft: #3C2E1B;
+      --teal: #5CAFA9;
+      --teal-soft: #1D3230;
+      --violet: #A79BC8;
+      --violet-soft: #2C2740;
+      --plum: #D690A6;
+      --plum-soft: #372430;
+      --steel: #8FB4D6;
+      --steel-soft: #1E2E3C;
+
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 32px -16px rgba(0,0,0,0.5);
+    }
+  }
+
+  :root[data-theme="dark"]{
+    --paper: #14181F;
+    --surface: #1B212B;
+    --surface-2: #202733;
+    --ink: #E9E8E2;
+    --ink-soft: #AEB5C0;
+    --ink-faint: #7E8794;
+    --line: #313A47;
+    --line-soft: #262E3A;
+
+    --amber: #E3A24C;
+    --amber-soft: #3C2E1B;
+    --teal: #5CAFA9;
+    --teal-soft: #1D3230;
+    --violet: #A79BC8;
+    --violet-soft: #2C2740;
+    --plum: #D690A6;
+    --plum-soft: #372430;
+    --steel: #8FB4D6;
+    --steel-soft: #1E2E3C;
+
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 12px 32px -16px rgba(0,0,0,0.5);
+  }
+
+  *{ box-sizing: border-box; }
+  html{ text-size-adjust: 100%; }
+
+  body{
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  ::selection{ background: var(--amber-soft); color: var(--ink); }
+
+  a{ color: inherit; }
+
+  .mono{
+    font-family: "IBM Plex Mono", ui-monospace, "SF Mono", monospace;
+  }
+
+  .page{
+    display: grid;
+    grid-template-columns: 220px minmax(0, 880px);
+    gap: 56px;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 64px 32px 120px;
+    justify-content: center;
+  }
+
+  @media (max-width: 920px){
+    .page{ grid-template-columns: minmax(0, 1fr); padding: 40px 20px 80px; }
+    nav.toc{ display: none; }
+  }
+
+  nav.toc{
+    position: sticky;
+    top: 48px;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-top: 10px;
+  }
+
+  nav.toc .toc-label{
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 10px;
+  }
+
+  nav.toc a{
+    text-decoration: none;
+    font-size: 13.5px;
+    color: var(--ink-soft);
+    padding: 6px 0 6px 12px;
+    border-left: 2px solid var(--line-soft);
+    transition: color .15s ease, border-color .15s ease;
+  }
+  nav.toc a:hover{ color: var(--ink); border-color: var(--amber); }
+  nav.toc a .n{
+    font-family: "IBM Plex Mono", monospace;
+    color: var(--ink-faint);
+    margin-right: 8px;
+    font-size: 11.5px;
+  }
+
+  main{ min-width: 0; }
+
+  header.masthead{
+    margin-bottom: 56px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .eyebrow{
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin: 0 0 14px;
+  }
+
+  h1{
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    font-size: clamp(2.1rem, 4vw, 3rem);
+    line-height: 1.06;
+    letter-spacing: -0.01em;
+    margin: 0 0 18px;
+    text-wrap: balance;
+  }
+
+  header.masthead p.dek{
+    font-size: 17px;
+    color: var(--ink-soft);
+    max-width: 62ch;
+    margin: 0 0 20px;
+  }
+
+  .source-note{
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12.5px;
+    color: var(--ink-faint);
+  }
+  .source-note code{
+    background: var(--surface-2);
+    border: 1px solid var(--line-soft);
+    border-radius: 4px;
+    padding: 1px 6px;
+    color: var(--ink-soft);
+  }
+
+  section{ margin-bottom: 72px; scroll-margin-top: 32px; }
+
+  .section-head{
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin-bottom: 6px;
+  }
+
+  .tab{
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    padding: 3px 9px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+  .tab.amber{ color: var(--amber); background: var(--amber-soft); }
+  .tab.teal{ color: var(--teal); background: var(--teal-soft); }
+  .tab.violet{ color: var(--violet); background: var(--violet-soft); }
+  .tab.plum{ color: var(--plum); background: var(--plum-soft); }
+  .tab.steel{ color: var(--steel); background: var(--steel-soft); }
+  .tab.neutral{ color: var(--ink-soft); background: var(--surface-2); }
+
+  h2{
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 600;
+    font-size: 1.62rem;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .section-intro{
+    color: var(--ink-soft);
+    max-width: 70ch;
+    margin: 16px 0 28px;
+  }
+  .section-intro + .section-intro{ margin-top: -18px; }
+
+  .card{
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    margin-bottom: 22px;
+  }
+  .card .bar{ height: 4px; }
+  .bar.amber{ background: var(--amber); }
+  .bar.teal{ background: var(--teal); }
+  .bar.violet{ background: var(--violet); }
+  .bar.plum{ background: var(--plum); }
+  .bar.steel{ background: var(--steel); }
+  .bar.neutral{ background: var(--ink-faint); }
+
+  .card .diagram-wrap{
+    padding: 22px 18px 10px;
+    overflow-x: auto;
+  }
+  .card .diagram-wrap pre.mermaid{ margin: 0; min-width: 560px; }
+
+  .touches{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 14px 18px 18px;
+    border-top: 1px dashed var(--line-soft);
+  }
+  .touches .chip{
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    color: var(--ink-soft);
+    background: var(--surface-2);
+    border: 1px solid var(--line-soft);
+    border-radius: 20px;
+    padding: 4px 11px;
+  }
+  .touches .chip .k{ color: var(--ink-faint); }
+
+  table.status{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    margin: 6px 0 26px;
+  }
+  table.status th, table.status td{
+    text-align: left;
+    padding: 9px 14px;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  table.status th{
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    font-weight: 500;
+  }
+  table.status td.type{ font-family: "IBM Plex Mono", monospace; color: var(--ink); white-space: nowrap; }
+  table.status td.flow{ color: var(--ink-soft); }
+  table.status tr:last-child td{ border-bottom: none; }
+
+  .note{
+    font-size: 14.5px;
+    color: var(--ink-soft);
+    background: var(--surface-2);
+    border-left: 3px solid var(--amber);
+    padding: 12px 16px;
+    border-radius: 0 6px 6px 0;
+    margin: 0 0 26px;
+  }
+  .note strong{ color: var(--ink); }
+
+  footer{
+    margin-top: 80px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    color: var(--ink-faint);
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *{ animation: none !important; transition: none !important; }
+  }
+</style>
+
+<div class="page">
+
+  <nav class="toc">
+    <div class="toc-label">Contents</div>
+    <a href="#overview"><span class="n">00</span>Overview</a>
+    <a href="#tasks"><span class="n">01</span>Tasks</a>
+    <a href="#artifacts"><span class="n">02</span>Artifacts</a>
+    <a href="#goals"><span class="n">03</span>Goals &amp; rollup</a>
+    <a href="#reasoning"><span class="n">04</span>Reasoning</a>
+    <a href="#people"><span class="n">05</span>People &amp; resources</a>
+    <a href="#build-order"><span class="n">06</span>Build order</a>
+  </nav>
+
+  <main>
+    <header class="masthead">
+      <p class="eyebrow">Design summary · journeys through the system</p>
+      <h1>A personal assistant, wrapped in a TUI</h1>
+      <p class="dek">Five journeys through one shared core: how a todo gets triaged, how a proposal becomes a filed
+        artifact, how a monthly goal rolls up against everything else, how a spawned Claude Code session earns its
+        keep, and how the whole thing gets built.</p>
+      <p class="source-note">Summarizing <code>docs/unified-tracker/design.md</code> — a design, not code, most of it
+        gated behind the 2026-10-07 Linear trial checkpoint or opportunistic timing.</p>
+    </header>
+
+    <section id="overview">
+      <div class="section-head">
+        <span class="tab neutral">§0</span>
+        <h2>Shape: a shared core, two surfaces</h2>
+      </div>
+      <p class="section-intro">A single Go core implements the todo, artifact, goal, and people logic as a library.
+        Interaction code depends on trait shapes — <span class="mono">TodoBackend</span> and its siblings — never on
+        one storage mechanism directly. Two surfaces sit on that core, and every journey below runs through one of
+        them.</p>
+
+      <div class="card">
+        <div class="bar neutral"></div>
+        <div class="diagram-wrap">
+<pre class="mermaid">
+flowchart TB
+    Core["Go core library\nTodoBackend / Artifact / Goal / People traits"]
+    Core --> TUI["TUI — bubbletea\nprimary, everyday interface"]
+    Core --> CLI["CLI\nfuture agents layer, scripting\noutput format still open"]
+
+    TUI --> D1["§1 Tasks"]
+    TUI --> D2["§2 Artifacts"]
+    TUI --> D3["§3 Goals / State"]
+    TUI --> D4["§4 Reasoning"]
+    TUI --> D5["§5 People / Resources"]
+
+    classDef core fill:#B96A16,stroke:#B96A16,color:#fff
+    classDef surface fill:#ffffff,stroke:#C7CDD6,color:#1F2430
+    class Core core
+    class TUI,CLI surface
+</pre>
+        </div>
+        <div class="touches">
+          <span class="chip"><span class="k">language</span> Go</span>
+          <span class="chip"><span class="k">pattern</span> tuicr-style trait boundaries</span>
+          <span class="chip"><span class="k">why</span> avoids bash/yq composition limits</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="tasks">
+      <div class="section-head">
+        <span class="tab amber">01 · §1</span>
+        <h2>Journey: capturing and closing a task</h2>
+      </div>
+      <p class="section-intro">Carried over from <span class="mono">docs/unified-tracker/linear-trial.md</span>'s appendix: weekly
+        ISO cycles with rollover, fzf-driven triage. Only the build trigger changed — the trait plus
+        <span class="mono">LocalYamlBackend</span> ships regardless of the Linear trial's outcome, since the TUI
+        needs it either way.</p>
+
+      <div class="card">
+        <div class="bar amber"></div>
+        <div class="diagram-wrap">
+<pre class="mermaid">
+flowchart LR
+    Start(["Open TUI"]) --> Browse["Browse todos\ncurrent ISO week"]
+    Browse --> Add["Add todo"]
+    Browse --> Triage["fzf-driven triage"]
+    Add --> Store[("todos.yaml\nLocalYamlBackend")]
+    Triage --> Complete["Mark complete"]
+    Triage --> Rollover{"End of week,\nstill open?"}
+    Rollover -- yes --> NextWeek["Rolls into\nnext ISO week"]
+    Rollover -- no --> Done(["Closed"])
+    Complete --> Store
+    NextWeek --> Store
+    Store --> Git[("git commit\nthis repo")]
+</pre>
+        </div>
+        <div class="touches">
+          <span class="chip"><span class="k">backend</span> LocalYamlBackend</span>
+          <span class="chip"><span class="k">file</span> todo/todos.yaml</span>
+          <span class="chip"><span class="k">storage</span> git-native, atomic commits</span>
+          <span class="chip"><span class="k">future</span> LinearBackend — optional, same trait</span>
+        </div>
+      </div>
+
+      <p class="note"><strong>Not a hard gate.</strong> The original design waited on the Linear trial before
+        building anything. The trait abstraction removes that: a <span class="mono">LinearBackend</span> becomes
+        optional future work, only if the trial calls for it.</p>
+    </section>
+
+    <section id="artifacts">
+      <div class="section-head">
+        <span class="tab teal">02 · §2</span>
+        <h2>Journey: filing an artifact</h2>
+      </div>
+      <p class="section-intro">Adapts <span class="mono">proposal-agentic-artifact-registry.md</span>'s
+        frontmatter-as-registry pattern, scaled down for solo use — no merge-time numbering ceremony, since one
+        person filing alone can't collide with themself. The storage location changes from the original design
+        though: Obsidian becomes the primary home for every personal artifact, not files scanned in place inside
+        each project's repo.</p>
+
+      <div class="card">
+        <div class="bar teal"></div>
+        <div class="diagram-wrap">
+<pre class="mermaid">
+flowchart LR
+    Draft(["Have a PoC, proposal,\nor research draft"]) --> New["new &lt;type&gt; &lt;project&gt; &lt;slug&gt;"]
+    New --> File["Filed in the vault\nProjects/&lt;name&gt;/ or Notes/"]
+    File --> FM["Frontmatter set:\nid, type, project [[wikilink]],\nstatus: draft, created"]
+    FM --> Edit["Edited in Obsidian\ndesktop or mobile capture"]
+    Edit --> Status{"Status advances\nper type"}
+    Status --> Index["Core walks vault frontmatter\nlist / show / stale — generated, never hand-kept"]
+</pre>
+        </div>
+        <div class="touches">
+          <span class="chip"><span class="k">identity</span> filename is id — no second identifier</span>
+          <span class="chip"><span class="k">sync</span> Obsidian's own sync, not git</span>
+          <span class="chip"><span class="k">layout</span> Projects/&lt;name&gt;/&lt;name&gt;.md index note</span>
+          <span class="chip"><span class="k">fallback</span> Notes/ for project: null</span>
+        </div>
+      </div>
+
+      <table class="status">
+        <thead><tr><th>Type</th><th>Status vocabulary</th></tr></thead>
+        <tbody>
+          <tr><td class="type">proposal</td><td class="flow">draft → proposed → accepted</td></tr>
+          <tr><td class="type">research</td><td class="flow">draft → proposed → concluded</td></tr>
+          <tr><td class="type">tool-doc</td><td class="flow">draft → proposed → published</td></tr>
+          <tr><td class="type">poc</td><td class="flow">draft → filed</td></tr>
+          <tr><td class="type">session-note</td><td class="flow">filed — no gate, just needs to be findable</td></tr>
+        </tbody>
+      </table>
+
+      <p class="note"><strong>Migration is opportunistic, not blocking.</strong> Existing artifacts scattered across
+        project repos and the old <span class="mono">docs/notes/</span> fallback move into the vault eventually —
+        cleanup, not a prerequisite for anything else here.</p>
+    </section>
+
+    <section id="goals">
+      <div class="section-head">
+        <span class="tab violet">03 · §3</span>
+        <h2>Journey: setting a goal, watching it roll up</h2>
+      </div>
+      <p class="section-intro">"Where am I, where am I heading" — bullet-journal yearly and monthly goals, rolled up
+        deterministically against tasks, artifacts, and people. No LLM in this step; the reasoning layer (§4) is a
+        separate, deliberate trigger.</p>
+
+      <div class="card">
+        <div class="bar violet"></div>
+        <div class="diagram-wrap">
+<pre class="mermaid">
+flowchart LR
+    SetY["Set yearly theme\ngoals.yaml: yearly"] --> SetM["Set monthly goal\ntitle, month, parent_theme, project"]
+    SetM --> Active["status: active"]
+    Active --> Rollup["Rollup function\ngoals.yaml + todos + artifacts\n+ projects.yaml + people"]
+    Rollup --> View["TUI renders:\nprogress per goal, open items per project,\nstale artifacts"]
+    View --> Review{"Reviewed\nat month end"}
+    Review -- met --> DoneG["status: done"]
+    Review -- abandoned --> Dropped["status: dropped"]
+    Review -- unfinished --> Carried["status: carried\nauto-rolls to next month"]
+</pre>
+        </div>
+        <div class="touches">
+          <span class="chip"><span class="k">file</span> goals.yaml</span>
+          <span class="chip"><span class="k">engine</span> Go core function, not a standalone script</span>
+          <span class="chip"><span class="k">doubles as</span> context handed to a spawned Claude Code session</span>
+        </div>
+      </div>
+
+      <p class="note"><strong>carried</strong> makes the bullet-journal migration ritual an explicit status instead
+        of a manual copy-paste into next month's page.</p>
+    </section>
+
+    <section id="reasoning">
+      <div class="section-head">
+        <span class="tab plum">04 · §4</span>
+        <h2>Journey: spawning a reasoning session</h2>
+      </div>
+      <p class="section-intro">The TUI triggers real Claude Code sessions as child processes rather than
+        reimplementing reasoning itself. Two modes, chosen per task — and nothing a session produces is filed
+        automatically.</p>
+
+      <div class="card">
+        <div class="bar plum"></div>
+        <div class="diagram-wrap">
+<pre class="mermaid">
+flowchart LR
+    Trigger(["Triggered on a goal,\nrollup, or artifact"]) --> Mode{"Choose mode"}
+    Mode -- quick summary --> Headless["Headless\nclaude -p '...'\ncapture stdout, render inline"]
+    Mode -- open-ended review --> Interactive["Interactive handoff\nsuspend TUI screen\nexec claude interactively"]
+    Interactive --> Resume["TUI resumes on exit\nsame pattern as lazygit + $EDITOR"]
+    Headless --> Output["Session output shown in TUI"]
+    Resume --> Output
+    Output --> Gate{"User reviews,\nkeybind to save?"}
+    Gate -- yes --> Save["Saved as session-note artifact"]
+    Gate -- no --> Discard(["Discarded — nothing auto-filed"])
+    Save -.-> Vault[("Obsidian vault")]
+</pre>
+        </div>
+        <div class="touches">
+          <span class="chip"><span class="k">headless</span> claude -p, no screen handoff</span>
+          <span class="chip"><span class="k">interactive</span> suspend / exec / resume</span>
+          <span class="chip"><span class="k">gate</span> human decides what's worth finding</span>
+          <span class="chip"><span class="k">P2 idea</span> pipe through lege for a TTS review pass</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="people">
+      <div class="section-head">
+        <span class="tab steel">05 · §5</span>
+        <h2>Journey: logging a person or resource</h2>
+      </div>
+      <p class="section-intro">No longer gated on "artifacts and todo proving insufficient first" — builds alongside
+        artifacts and goals, since a people/resources view is cheap enough in a TUI that deferring it doesn't buy
+        much.</p>
+
+      <div class="card">
+        <div class="bar steel"></div>
+        <div class="diagram-wrap">
+<pre class="mermaid">
+flowchart LR
+    Add(["Add in TUI"]) --> Which{"Person or\nresource?"}
+    Which -- person --> Person["people.yaml\nname, context, relation,\nnotes, last_contact"]
+    Which -- resource --> Resource["resources.yaml\nname, type, owner,\nnotes, url"]
+    Person --> Feed["Feeds the §3 rollup\ne.g. a collaborator tied to a project"]
+    Resource --> Feed
+</pre>
+        </div>
+        <div class="touches">
+          <span class="chip"><span class="k">shape</span> flat YAML, same family as projects.yaml</span>
+          <span class="chip"><span class="k">storage</span> git-native</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="build-order">
+      <div class="section-head">
+        <span class="tab neutral">06 · §7</span>
+        <h2>Build order: what actually gates what</h2>
+      </div>
+      <p class="section-intro">Independent tracks, no forced sequence except where a real dependency exists. Colors
+        below tie back to each journey above.</p>
+
+      <div class="card">
+        <div class="bar neutral"></div>
+        <div class="diagram-wrap">
+<pre class="mermaid">
+flowchart TD
+    CoreTUI["Core + TUI shell\nTasks: LocalYamlBackend\nno longer gated on Linear trial"]
+    ArtifactsB["Artifacts registry + Obsidian vault\nopportunistic — no fixed date\nwants a 1–2 doc pilot first"]
+    Goals2["Goals / state rollup\nnothing to compute over before this"]
+    ReasoningB["Reasoning layer\nspawned Claude Code sessions"]
+    PeopleB["People / resources\nbuilds alongside, not gated behind"]
+
+    CoreTUI --> Goals2
+    ArtifactsB --> Goals2
+    CoreTUI --> ReasoningB
+    ArtifactsB --> ReasoningB
+    Goals2 --> ReasoningB
+    ArtifactsB --> PeopleB
+    Goals2 --> PeopleB
+
+    classDef amber fill:#F0DDBE,stroke:#B96A16,color:#1F2430
+    classDef teal fill:#D3E4E1,stroke:#21625F,color:#1F2430
+    classDef violet fill:#E1DBEC,stroke:#5D4E80,color:#1F2430
+    classDef plum fill:#ECD7DF,stroke:#833F58,color:#1F2430
+    classDef steel fill:#D6E2EB,stroke:#305F87,color:#1F2430
+    class CoreTUI amber
+    class ArtifactsB teal
+    class Goals2 violet
+    class ReasoningB plum
+    class PeopleB steel
+</pre>
+        </div>
+        <div class="touches">
+          <span class="chip"><span class="k">not building</span> Warren — orthogonal, agent-dispatch not project mgmt</span>
+          <span class="chip"><span class="k">not building</span> Linear backend, yet</span>
+          <span class="chip"><span class="k">not syncing</span> personal &amp; work registry schemas</span>
+          <span class="chip"><span class="k">no longer ruled out</span> scheduled/unattended nudges (P2)</span>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      Source: docs/unified-tracker/design.md — a design, not code.
+    </footer>
+  </main>
+
+</div>

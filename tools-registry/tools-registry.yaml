@@ -35,6 +35,10 @@ tools:
     description: "GitHub CLI."
     source: homebrew
 
+  - name: linear
+    description: "Linear issue tracker CLI (community, schpet/tap); on trial as the cross-project todo system, see docs/unified-tracker/linear-trial.md."
+    source: homebrew
+
   - name: openproject-cli
     description: "OpenProject CLI; not packaged in nixpkgs/Homebrew, bootstrapped via go install."
     source: go-install
