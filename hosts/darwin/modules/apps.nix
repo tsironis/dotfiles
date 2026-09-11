@@ -142,6 +142,7 @@
       "icdiff"
       "aha"
       "bun"
+      "wget"
     ];
 
     # `brew install --cask`
