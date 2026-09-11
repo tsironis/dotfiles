@@ -1,5 +1,6 @@
 {
   pkgs,
+  inputs,
   username,
   ...
 }: {
@@ -32,6 +33,9 @@
     python3
     alejandra # nix formatter (matches flake formatter; used by nvim conform)
     shfmt # shell formatter (used by nvim conform)
+  ]
+  ++ [
+    inputs.herdr.packages.${pkgs.system}.default # terminal workspace manager for AI coding agents
   ];
 
   environment.variables.EDITOR = "nvim";

@@ -23,6 +23,10 @@ tools:
     description: "Wraps an agent CLI (Claude Code) and reflects its working/blocked/idle state in the current zellij tab name."
     source: nix-managed
 
+  - name: herdr
+    description: "Terminal workspace manager for AI coding agents; installed from its own flake, pinned in flake.nix."
+    source: nix-managed
+
   - name: glab
     description: "GitLab CLI."
     source: homebrew

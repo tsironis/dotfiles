@@ -16,6 +16,14 @@
 
     nix-homebrew.url = "github:zhaofengli/nix-homebrew";
 
+    # herdr — terminal workspace manager for AI coding agents. Built from source
+    # (Rust + zig for the vendored libghostty-vt); pinned to a release tag, so
+    # updates mean bumping the tag here.
+    herdr = {
+      url = "github:herdrdev/herdr/v0.8.2";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     # Determinate Nix — hardened daemon that survives macOS major upgrades
     # (signed LaunchDaemon, not BTM-gated). Manages Nix itself; see nix-core.nix.
     determinate.url = "https://flakehub.com/f/DeterminateSystems/determinate/3";
