@@ -23,3 +23,51 @@ projects:
     description: ""
     repo: ""
     last_touched: "2026-08-18"
+  - name: kaloupi-verse
+    path: /Users/dimitristsironis/code/kaloupi-verse
+    category: ""
+    owner: personal
+    status: active
+    description: ""
+    repo: ""
+    last_touched: "2026-08-22"
+  - name: splinter
+    path: /Users/dimitristsironis/code/splinter
+    category: ""
+    owner: personal
+    status: active
+    description: "Content-addressed storage server with a Git LFS bridge, learning-first, built in slices."
+    repo: ""
+    last_touched: "2026-06-27"
+  - name: plantcal
+    path: /Users/dimitristsironis/code/plantcal
+    category: ""
+    owner: personal
+    status: active
+    description: "Sowing calendar and garden-planner research for a regenerative community garden pilot."
+    repo: "git@github.com:tsironis/plantcal.git"
+    last_touched: "2026-07-29"
+  - name: car-gr-watcher
+    path: /Users/dimitristsironis/code/car-gr-watcher
+    category: ""
+    owner: personal
+    status: active
+    description: ""
+    repo: ""
+    last_touched: "2026-08-31"
+  - name: midi-conversion
+    path: /Users/dimitristsironis/code/midi-conversion
+    category: ""
+    owner: personal
+    status: active
+    description: "AI drum/MIDI transcription pipeline from audio, with timing and notation cleanup."
+    repo: ""
+    last_touched: "2026-09-02"
+  - name: habitat-commons
+    path: /Users/dimitristsironis/code/habitat-commons
+    category: ""
+    owner: personal
+    status: active
+    description: ""
+    repo: ""
+    last_touched: "2026-09-10"
