@@ -17,6 +17,7 @@ swap when forking — see [Forking for your own machine](#forking-for-your-own-m
 | `nvim/` | Neovim config (kickstart-based) |
 | `zsh/`, `ghostty/`, `aerospace/`, `sketchybar/` | App configs, symlinked into `~/.config` |
 | `render-pdf/` | `render-pdf` CLI: markdown → Typst → PDF, mermaid diagrams as vector SVG. Symlinked to `~/.local/bin/render-pdf` |
+| `binoculars/` | `binoculars` CLI: local AI-generated-text detector (Binoculars method) via MLX. Apple Silicon only. Symlinked to `~/.local/bin/binoculars` |
 | `zellij-sessionizer/` | fzf-driven zellij project picker, bound to `f` in `zellij/config.kdl`. Symlinked to `~/.local/bin/zellij-sessionizer` |
 | `projects/` | `projects` CLI: personal/work project tracker (category, owner, status). Symlinked to `~/.local/bin/projects` |
 | `tools-registry/` | `tools-registry` CLI: manually curated index of available CLI tools. Symlinked to `~/.local/bin/tools-registry` |
@@ -36,6 +37,8 @@ via `mkOutOfStoreSymlink`, so edits take effect immediately without a rebuild.
   Nix, install manually. See `render-pdf/` for details.
 - `projects` and `tools-registry` need `yq` on PATH — already installed via
   Homebrew, see `hosts/darwin/modules/apps.nix`.
+- `binoculars` needs Apple Silicon (mlx/mlx-lm don't run under x86 emulation); its first
+  run downloads a model pair from Hugging Face (a few GB). See `binoculars/` for details.
 
 ## Forking for your own machine
 

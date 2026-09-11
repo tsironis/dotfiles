@@ -1,0 +1,300 @@
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_00.txt
+likely human-written (score=1.4546, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=10.4038  X-PPL=7.1522
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_01.txt
+likely human-written (score=1.6332, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=16.8284  X-PPL=10.3039
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_02.txt
+likely human-written (score=1.3112, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=11.2246  X-PPL=8.5604
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_03.txt
+likely human-written (score=1.5786, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=25.9003  X-PPL=16.4070
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_04.txt
+likely human-written (score=1.5338, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.8696  X-PPL=6.4345
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_05.txt
+likely human-written (score=1.4298, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.9197  X-PPL=6.9379
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_06.txt
+likely human-written (score=1.2969, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.2173  X-PPL=6.3360
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_07.txt
+likely human-written (score=1.7622, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=19.3115  X-PPL=10.9588
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_08.txt
+likely human-written (score=1.8915, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=12.7882  X-PPL=6.7610
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_09.txt
+likely human-written (score=1.5992, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=15.6748  X-PPL=9.8018
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_10.txt
+likely human-written (score=1.6624, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=14.7453  X-PPL=8.8700
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_11.txt
+likely human-written (score=1.4444, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=16.8944  X-PPL=11.6963
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_00.txt
+likely human-written (score=1.8908, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=22.8710  X-PPL=12.0962
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_01.txt
+likely human-written (score=1.6146, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=12.7217  X-PPL=7.8793
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_02.txt
+likely human-written (score=1.2504, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.8535  X-PPL=7.0805
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_03.txt
+likely human-written (score=1.7521, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=21.8311  X-PPL=12.4596
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_04.txt
+likely human-written (score=1.8156, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=14.8090  X-PPL=8.1565
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_05.txt
+likely human-written (score=1.3330, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.4669  X-PPL=6.3520
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_06.txt
+likely human-written (score=1.7049, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=15.1212  X-PPL=8.8692
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_07.txt
+likely human-written (score=1.8261, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=23.5366  X-PPL=12.8892
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_08.txt
+likely human-written (score=1.8246, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=21.5496  X-PPL=11.8108
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_09.txt
+likely human-written (score=1.7735, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=22.9004  X-PPL=12.9123
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_10.txt
+likely human-written (score=1.2377, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.0171  X-PPL=7.2855
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_11.txt
+likely human-written (score=1.8808, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=20.0303  X-PPL=10.6500
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/open_qa_00.txt
+likely machine-generated (score=0.8173, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=5.8777  X-PPL=7.1920
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_00.txt
+likely human-written (score=1.1963, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=7.6853  X-PPL=6.4242
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_01.txt
+likely human-written (score=1.2651, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=11.4065  X-PPL=9.0160
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_02.txt
+likely human-written (score=1.9568, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=17.8112  X-PPL=9.1022
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_03.txt
+likely human-written (score=1.5108, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=13.2706  X-PPL=8.7840
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_04.txt
+likely human-written (score=1.2508, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=16.2670  X-PPL=13.0058
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_05.txt
+likely human-written (score=1.8998, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=30.8105  X-PPL=16.2179
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_06.txt
+likely human-written (score=1.7642, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=19.8856  X-PPL=11.2715
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_07.txt
+likely human-written (score=1.2499, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=4.1518  X-PPL=3.3216
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_08.txt
+likely human-written (score=1.4730, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=14.7456  X-PPL=10.0104
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_09.txt
+likely human-written (score=1.4767, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=15.9944  X-PPL=10.8315
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_10.txt
+likely human-written (score=1.8382, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=25.8764  X-PPL=14.0772
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_11.txt
+likely human-written (score=1.6082, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=11.5209  X-PPL=7.1640
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_00.txt
+likely machine-generated (score=0.8773, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=1.9508  X-PPL=2.2235
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_01.txt
+likely human-written (score=1.0770, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.7966  X-PPL=3.5252
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_02.txt
+likely machine-generated (score=0.9313, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=6.6419  X-PPL=7.1321
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_03.txt
+likely machine-generated (score=0.8635, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=1.8027  X-PPL=2.0877
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_04.txt
+likely human-written (score=1.1895, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=4.7987  X-PPL=4.0343
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_05.txt
+likely human-written (score=1.3939, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.9493  X-PPL=6.4203
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_06.txt
+likely machine-generated (score=0.8803, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.1153  X-PPL=2.4029
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_07.txt
+likely machine-generated (score=0.8399, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.1749  X-PPL=2.5894
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_08.txt
+likely machine-generated (score=0.9208, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.8289  X-PPL=3.0722
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_09.txt
+likely human-written (score=1.0376, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=4.7243  X-PPL=4.5531
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_10.txt
+likely human-written (score=1.2835, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=7.8210  X-PPL=6.0932
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_11.txt
+likely human-written (score=1.2162, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=4.7904  X-PPL=3.9390
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_12.txt
+likely human-written (score=1.5796, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.2212  X-PPL=5.2046
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_00.txt
+likely human-written (score=1.0422, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.3849  X-PPL=2.2883
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_01.txt
+likely human-written (score=1.0912, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.0155  X-PPL=2.7634
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_02.txt
+likely human-written (score=1.0646, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.1424  X-PPL=2.0124
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_03.txt
+likely human-written (score=1.0594, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.4583  X-PPL=2.3205
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_04.txt
+likely human-written (score=1.1038, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.3868  X-PPL=2.1623
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_05.txt
+likely human-written (score=1.1298, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.4365  X-PPL=2.1566
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_06.txt
+likely human-written (score=1.0387, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.1754  X-PPL=3.0570
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_07.txt
+likely human-written (score=1.2098, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.2281  X-PPL=2.6683
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_08.txt
+likely human-written (score=1.0642, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.7988  X-PPL=2.6299
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_09.txt
+likely human-written (score=1.2548, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.5150  X-PPL=2.8013
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_10.txt
+likely human-written (score=1.1867, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.7613  X-PPL=2.3269
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_11.txt
+likely human-written (score=1.1062, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.9126  X-PPL=2.6329
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_00.txt
+likely human-written (score=1.0371, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.1557  X-PPL=3.0428
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_01.txt
+likely human-written (score=1.1355, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.6942  X-PPL=2.3726
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_02.txt
+likely machine-generated (score=0.9322, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.4924  X-PPL=2.6736
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_03.txt
+likely human-written (score=1.0201, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.4350  X-PPL=2.3871
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_04.txt
+likely human-written (score=1.0038, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.6429  X-PPL=2.6328
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_05.txt
+likely machine-generated (score=0.9778, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.2541  X-PPL=2.3052
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_06.txt
+likely machine-generated (score=0.9986, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.4564  X-PPL=2.4599
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_07.txt
+likely human-written (score=1.1092, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.5578  X-PPL=2.3060
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_08.txt
+likely human-written (score=1.1478, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.9563  X-PPL=2.5755
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_09.txt
+likely human-written (score=1.1269, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.6810  X-PPL=2.3790
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_10.txt
+likely human-written (score=1.1173, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.2284  X-PPL=1.9945
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_11.txt
+likely human-written (score=1.0449, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.6025  X-PPL=2.4908
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/open_qa_00.txt
+likely machine-generated (score=0.9649, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=1.9992  X-PPL=2.0719
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_00.txt
+likely human-written (score=1.1022, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.0651  X-PPL=2.7809
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_01.txt
+likely machine-generated (score=0.9023, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.2702  X-PPL=2.5160
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_02.txt
+likely machine-generated (score=0.9740, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.5617  X-PPL=2.6302
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_03.txt
+likely human-written (score=1.1240, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.6259  X-PPL=2.3361
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_04.txt
+likely human-written (score=1.1837, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.2394  X-PPL=2.7367
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_05.txt
+likely machine-generated (score=0.8918, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.7406  X-PPL=3.0732
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_06.txt
+likely human-written (score=1.0264, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.2414  X-PPL=3.1579
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_07.txt
+likely human-written (score=1.0946, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.0370  X-PPL=1.8610
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_08.txt
+likely machine-generated (score=0.8719, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.1331  X-PPL=3.5933
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_09.txt
+likely machine-generated (score=0.9863, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.0739  X-PPL=2.1026
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_10.txt
+likely machine-generated (score=0.9454, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.9329  X-PPL=3.1023
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_11.txt
+likely machine-generated (score=0.7081, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.7021  X-PPL=3.8160
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_00.txt
+likely human-written (score=1.0230, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.3866  X-PPL=2.3329
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_01.txt
+likely machine-generated (score=0.7887, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.5767  X-PPL=3.2669
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_02.txt
+likely machine-generated (score=0.8984, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.3305  X-PPL=2.5941
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_03.txt
+likely machine-generated (score=0.9208, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.2525  X-PPL=2.4461
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_04.txt
+likely human-written (score=1.0783, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.6751  X-PPL=2.4809
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_05.txt
+likely human-written (score=1.0088, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.1858  X-PPL=3.1581
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_06.txt
+likely human-written (score=1.0467, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=1.9659  X-PPL=1.8781
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_07.txt
+likely human-written (score=1.0711, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.2544  X-PPL=2.1048
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_08.txt
+likely human-written (score=1.0742, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.1917  X-PPL=2.0403
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_09.txt
+likely machine-generated (score=0.9107, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.1274  X-PPL=2.3359
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_10.txt
+likely machine-generated (score=0.8174, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.1599  X-PPL=2.6425
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_11.txt
+likely machine-generated (score=0.9677, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.5129  X-PPL=3.6303
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_12.txt
+likely human-written (score=1.0517, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.0611  X-PPL=2.9105

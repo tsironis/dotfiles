@@ -1,0 +1,1262 @@
+[
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_00.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 480
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_01.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 441
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_02.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 412
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_03.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 380
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_04.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 680
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_05.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 156
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_06.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 165
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_07.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 250
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_08.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 247
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_09.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 214
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_10.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 264
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_11.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 249
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_12.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 309
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_13.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 396
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_14.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 262
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_15.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 362
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_16.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 398
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_17.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 322
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_18.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 224
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_19.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 384
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_20.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 437
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_21.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 352
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_22.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 242
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_23.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 285
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_24.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 359
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_25.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 491
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_26.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 199
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_27.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 414
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_28.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 310
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_29.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 243
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_30.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 249
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_31.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 504
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_32.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 633
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_33.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 452
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_34.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 543
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_35.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 247
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_36.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 192
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_37.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 193
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_38.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 254
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_39.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 488
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_40.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 464
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_41.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 414
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_42.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 198
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_43.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 207
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_44.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 236
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_45.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 431
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_46.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 619
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_47.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 315
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_48.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 582
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_49.txt",
+    "label": "human",
+    "model": "human",
+    "domain": "news",
+    "decoding": "",
+    "rep_penalty": "",
+    "words": 414
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_00.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 411
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_01.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 363
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_02.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 346
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_03.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 357
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_04.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 352
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_05.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 354
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_06.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 439
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_07.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 340
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_08.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 321
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_09.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 394
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_10.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 358
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_11.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 304
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_12.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 384
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_13.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 379
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_14.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 383
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_15.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 359
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_16.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 353
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_17.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 309
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_18.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 360
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_19.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 375
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_20.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 355
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_21.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 398
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_22.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 346
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_23.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 445
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_24.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 371
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_25.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 341
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_26.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 385
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_27.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 346
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_28.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 304
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_29.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 354
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_30.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 352
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_31.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 368
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_32.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 402
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_33.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 359
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_34.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 303
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_35.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 369
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_36.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 326
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_37.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 434
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_38.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 408
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_39.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 278
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_40.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 356
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_41.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 413
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_42.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 413
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_43.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 311
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_44.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 438
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_45.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 406
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_46.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 385
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_47.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 357
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_48.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 392
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_49.txt",
+    "label": "ai",
+    "model": "gpt4",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 391
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_00.txt",
+    "label": "ai",
+    "model": "chatgpt",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 424
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_01.txt",
+    "label": "ai",
+    "model": "chatgpt",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 343
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_02.txt",
+    "label": "ai",
+    "model": "chatgpt",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 384
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_03.txt",
+    "label": "ai",
+    "model": "chatgpt",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 329
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_04.txt",
+    "label": "ai",
+    "model": "chatgpt",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 290
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_05.txt",
+    "label": "ai",
+    "model": "chatgpt",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 431
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_06.txt",
+    "label": "ai",
+    "model": "chatgpt",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 361
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_07.txt",
+    "label": "ai",
+    "model": "chatgpt",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 374
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_08.txt",
+    "label": "ai",
+    "model": "chatgpt",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 342
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_09.txt",
+    "label": "ai",
+    "model": "chatgpt",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 311
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_00.txt",
+    "label": "ai",
+    "model": "llama-chat",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "yes",
+    "words": 335
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_01.txt",
+    "label": "ai",
+    "model": "llama-chat",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "yes",
+    "words": 346
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_02.txt",
+    "label": "ai",
+    "model": "llama-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 354
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_03.txt",
+    "label": "ai",
+    "model": "llama-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 330
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_04.txt",
+    "label": "ai",
+    "model": "llama-chat",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "yes",
+    "words": 317
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_05.txt",
+    "label": "ai",
+    "model": "llama-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 327
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_06.txt",
+    "label": "ai",
+    "model": "llama-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 335
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_07.txt",
+    "label": "ai",
+    "model": "llama-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 349
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_08.txt",
+    "label": "ai",
+    "model": "llama-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 331
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_09.txt",
+    "label": "ai",
+    "model": "llama-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 322
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_00.txt",
+    "label": "ai",
+    "model": "mistral-chat",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "yes",
+    "words": 250
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_01.txt",
+    "label": "ai",
+    "model": "mistral-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 261
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_02.txt",
+    "label": "ai",
+    "model": "mistral-chat",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "yes",
+    "words": 232
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_03.txt",
+    "label": "ai",
+    "model": "mistral-chat",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "yes",
+    "words": 381
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_04.txt",
+    "label": "ai",
+    "model": "mistral-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 291
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_05.txt",
+    "label": "ai",
+    "model": "mistral-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 331
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_06.txt",
+    "label": "ai",
+    "model": "mistral-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 188
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_07.txt",
+    "label": "ai",
+    "model": "mistral-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 254
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_08.txt",
+    "label": "ai",
+    "model": "mistral-chat",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "yes",
+    "words": 260
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_09.txt",
+    "label": "ai",
+    "model": "mistral-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 205
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_00.txt",
+    "label": "ai",
+    "model": "cohere-chat",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 160
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_01.txt",
+    "label": "ai",
+    "model": "cohere-chat",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 202
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_02.txt",
+    "label": "ai",
+    "model": "cohere-chat",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 171
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_03.txt",
+    "label": "ai",
+    "model": "cohere-chat",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 209
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_04.txt",
+    "label": "ai",
+    "model": "cohere-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 375
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_05.txt",
+    "label": "ai",
+    "model": "cohere-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 284
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_06.txt",
+    "label": "ai",
+    "model": "cohere-chat",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 421
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_07.txt",
+    "label": "ai",
+    "model": "cohere-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 403
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_08.txt",
+    "label": "ai",
+    "model": "cohere-chat",
+    "domain": "news",
+    "decoding": "sampling",
+    "rep_penalty": "no",
+    "words": 206
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_09.txt",
+    "label": "ai",
+    "model": "cohere-chat",
+    "domain": "news",
+    "decoding": "greedy",
+    "rep_penalty": "no",
+    "words": 245
+  }
+]

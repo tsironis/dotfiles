@@ -1,0 +1,702 @@
+[
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_00.txt",
+    "label": "human",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_00",
+    "words": 168
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_00.txt",
+    "label": "ai",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_00",
+    "words": 234
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/open_qa_00.txt",
+    "label": "human",
+    "domain": "open_qa",
+    "pair": "open_qa_00",
+    "words": 206
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/open_qa_00.txt",
+    "label": "ai",
+    "domain": "open_qa",
+    "pair": "open_qa_00",
+    "words": 230
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_00.txt",
+    "label": "human",
+    "domain": "medicine",
+    "pair": "medicine_00",
+    "words": 151
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_00.txt",
+    "label": "ai",
+    "domain": "medicine",
+    "pair": "medicine_00",
+    "words": 160
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_00.txt",
+    "label": "human",
+    "domain": "finance",
+    "pair": "finance_00",
+    "words": 237
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_00.txt",
+    "label": "ai",
+    "domain": "finance",
+    "pair": "finance_00",
+    "words": 230
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_00.txt",
+    "label": "human",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_00",
+    "words": 671
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_00.txt",
+    "label": "ai",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_00",
+    "words": 165
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_01.txt",
+    "label": "human",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_01",
+    "words": 297
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_01.txt",
+    "label": "ai",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_01",
+    "words": 171
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_01.txt",
+    "label": "human",
+    "domain": "medicine",
+    "pair": "medicine_01",
+    "words": 216
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_01.txt",
+    "label": "ai",
+    "domain": "medicine",
+    "pair": "medicine_01",
+    "words": 193
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_01.txt",
+    "label": "human",
+    "domain": "finance",
+    "pair": "finance_01",
+    "words": 186
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_01.txt",
+    "label": "ai",
+    "domain": "finance",
+    "pair": "finance_01",
+    "words": 194
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_01.txt",
+    "label": "human",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_01",
+    "words": 610
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_01.txt",
+    "label": "ai",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_01",
+    "words": 213
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_02.txt",
+    "label": "human",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_02",
+    "words": 172
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_02.txt",
+    "label": "ai",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_02",
+    "words": 186
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_02.txt",
+    "label": "human",
+    "domain": "medicine",
+    "pair": "medicine_02",
+    "words": 193
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_02.txt",
+    "label": "ai",
+    "domain": "medicine",
+    "pair": "medicine_02",
+    "words": 280
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_02.txt",
+    "label": "human",
+    "domain": "finance",
+    "pair": "finance_02",
+    "words": 299
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_02.txt",
+    "label": "ai",
+    "domain": "finance",
+    "pair": "finance_02",
+    "words": 290
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_02.txt",
+    "label": "human",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_02",
+    "words": 636
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_02.txt",
+    "label": "ai",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_02",
+    "words": 220
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_03.txt",
+    "label": "human",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_03",
+    "words": 296
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_03.txt",
+    "label": "ai",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_03",
+    "words": 203
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_03.txt",
+    "label": "human",
+    "domain": "medicine",
+    "pair": "medicine_03",
+    "words": 201
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_03.txt",
+    "label": "ai",
+    "domain": "medicine",
+    "pair": "medicine_03",
+    "words": 302
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_03.txt",
+    "label": "human",
+    "domain": "finance",
+    "pair": "finance_03",
+    "words": 165
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_03.txt",
+    "label": "ai",
+    "domain": "finance",
+    "pair": "finance_03",
+    "words": 287
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_03.txt",
+    "label": "human",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_03",
+    "words": 274
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_03.txt",
+    "label": "ai",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_03",
+    "words": 235
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_04.txt",
+    "label": "human",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_04",
+    "words": 515
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_04.txt",
+    "label": "ai",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_04",
+    "words": 231
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_04.txt",
+    "label": "human",
+    "domain": "medicine",
+    "pair": "medicine_04",
+    "words": 157
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_04.txt",
+    "label": "ai",
+    "domain": "medicine",
+    "pair": "medicine_04",
+    "words": 150
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_04.txt",
+    "label": "human",
+    "domain": "finance",
+    "pair": "finance_04",
+    "words": 202
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_04.txt",
+    "label": "ai",
+    "domain": "finance",
+    "pair": "finance_04",
+    "words": 182
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_04.txt",
+    "label": "human",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_04",
+    "words": 216
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_04.txt",
+    "label": "ai",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_04",
+    "words": 353
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_05.txt",
+    "label": "human",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_05",
+    "words": 152
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_05.txt",
+    "label": "ai",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_05",
+    "words": 215
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_05.txt",
+    "label": "human",
+    "domain": "medicine",
+    "pair": "medicine_05",
+    "words": 250
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_05.txt",
+    "label": "ai",
+    "domain": "medicine",
+    "pair": "medicine_05",
+    "words": 283
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_05.txt",
+    "label": "human",
+    "domain": "finance",
+    "pair": "finance_05",
+    "words": 494
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_05.txt",
+    "label": "ai",
+    "domain": "finance",
+    "pair": "finance_05",
+    "words": 256
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_05.txt",
+    "label": "human",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_05",
+    "words": 207
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_05.txt",
+    "label": "ai",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_05",
+    "words": 196
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_06.txt",
+    "label": "human",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_06",
+    "words": 217
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_06.txt",
+    "label": "ai",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_06",
+    "words": 168
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_06.txt",
+    "label": "human",
+    "domain": "medicine",
+    "pair": "medicine_06",
+    "words": 212
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_06.txt",
+    "label": "ai",
+    "domain": "medicine",
+    "pair": "medicine_06",
+    "words": 261
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_06.txt",
+    "label": "human",
+    "domain": "finance",
+    "pair": "finance_06",
+    "words": 198
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_06.txt",
+    "label": "ai",
+    "domain": "finance",
+    "pair": "finance_06",
+    "words": 238
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_06.txt",
+    "label": "human",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_06",
+    "words": 241
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_06.txt",
+    "label": "ai",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_06",
+    "words": 215
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_07.txt",
+    "label": "human",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_07",
+    "words": 296
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_07.txt",
+    "label": "ai",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_07",
+    "words": 235
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_07.txt",
+    "label": "human",
+    "domain": "medicine",
+    "pair": "medicine_07",
+    "words": 162
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_07.txt",
+    "label": "ai",
+    "domain": "medicine",
+    "pair": "medicine_07",
+    "words": 286
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_07.txt",
+    "label": "human",
+    "domain": "finance",
+    "pair": "finance_07",
+    "words": 245
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_07.txt",
+    "label": "ai",
+    "domain": "finance",
+    "pair": "finance_07",
+    "words": 152
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_07.txt",
+    "label": "human",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_07",
+    "words": 330
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_07.txt",
+    "label": "ai",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_07",
+    "words": 371
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_08.txt",
+    "label": "human",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_08",
+    "words": 261
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_08.txt",
+    "label": "ai",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_08",
+    "words": 226
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_08.txt",
+    "label": "human",
+    "domain": "medicine",
+    "pair": "medicine_08",
+    "words": 161
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_08.txt",
+    "label": "ai",
+    "domain": "medicine",
+    "pair": "medicine_08",
+    "words": 203
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_08.txt",
+    "label": "human",
+    "domain": "finance",
+    "pair": "finance_08",
+    "words": 158
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_08.txt",
+    "label": "ai",
+    "domain": "finance",
+    "pair": "finance_08",
+    "words": 247
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_08.txt",
+    "label": "human",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_08",
+    "words": 153
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_08.txt",
+    "label": "ai",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_08",
+    "words": 164
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_09.txt",
+    "label": "human",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_09",
+    "words": 190
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_09.txt",
+    "label": "ai",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_09",
+    "words": 218
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_09.txt",
+    "label": "human",
+    "domain": "medicine",
+    "pair": "medicine_09",
+    "words": 224
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_09.txt",
+    "label": "ai",
+    "domain": "medicine",
+    "pair": "medicine_09",
+    "words": 159
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_09.txt",
+    "label": "human",
+    "domain": "finance",
+    "pair": "finance_09",
+    "words": 215
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_09.txt",
+    "label": "ai",
+    "domain": "finance",
+    "pair": "finance_09",
+    "words": 209
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_09.txt",
+    "label": "human",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_09",
+    "words": 325
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_09.txt",
+    "label": "ai",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_09",
+    "words": 280
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_10.txt",
+    "label": "human",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_10",
+    "words": 280
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_10.txt",
+    "label": "ai",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_10",
+    "words": 194
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_10.txt",
+    "label": "human",
+    "domain": "medicine",
+    "pair": "medicine_10",
+    "words": 162
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_10.txt",
+    "label": "ai",
+    "domain": "medicine",
+    "pair": "medicine_10",
+    "words": 348
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_10.txt",
+    "label": "human",
+    "domain": "finance",
+    "pair": "finance_10",
+    "words": 190
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_10.txt",
+    "label": "ai",
+    "domain": "finance",
+    "pair": "finance_10",
+    "words": 197
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_10.txt",
+    "label": "human",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_10",
+    "words": 560
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_10.txt",
+    "label": "ai",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_10",
+    "words": 231
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_11.txt",
+    "label": "human",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_11",
+    "words": 174
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_11.txt",
+    "label": "ai",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_11",
+    "words": 166
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/medicine_11.txt",
+    "label": "human",
+    "domain": "medicine",
+    "pair": "medicine_11",
+    "words": 278
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/medicine_11.txt",
+    "label": "ai",
+    "domain": "medicine",
+    "pair": "medicine_11",
+    "words": 195
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/finance_11.txt",
+    "label": "human",
+    "domain": "finance",
+    "pair": "finance_11",
+    "words": 285
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/finance_11.txt",
+    "label": "ai",
+    "domain": "finance",
+    "pair": "finance_11",
+    "words": 262
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/reddit_eli5_11.txt",
+    "label": "human",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_11",
+    "words": 163
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/reddit_eli5_11.txt",
+    "label": "ai",
+    "domain": "reddit_eli5",
+    "pair": "reddit_eli5_11",
+    "words": 156
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/human/wiki_csai_12.txt",
+    "label": "human",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_12",
+    "words": 191
+  },
+  {
+    "path": "/private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/cal/ai/wiki_csai_12.txt",
+    "label": "ai",
+    "domain": "wiki_csai",
+    "pair": "wiki_csai_12",
+    "words": 171
+  }
+]

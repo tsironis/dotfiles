@@ -1,0 +1,420 @@
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_00.txt
+likely human-written (score=1.3316, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.9901  X-PPL=7.5025
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_01.txt
+likely human-written (score=1.2308, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.7118  X-PPL=7.0781
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_02.txt
+likely human-written (score=1.1547, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=10.2667  X-PPL=8.8911
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_03.txt
+likely human-written (score=1.3773, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=15.4538  X-PPL=11.2204
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_04.txt
+likely human-written (score=1.3540, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.4610  X-PPL=6.2489
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_05.txt
+likely human-written (score=1.2436, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=11.3356  X-PPL=9.1149
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_06.txt
+likely human-written (score=1.5266, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=11.7785  X-PPL=7.7155
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_07.txt
+likely human-written (score=1.3726, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.5236  X-PPL=6.9385
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_08.txt
+likely human-written (score=1.1236, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.8101  X-PPL=8.7308
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_09.txt
+likely human-written (score=1.3016, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=10.6690  X-PPL=8.1966
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_10.txt
+likely human-written (score=1.2212, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.0005  X-PPL=7.3700
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_11.txt
+likely human-written (score=1.5675, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=11.7464  X-PPL=7.4938
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_12.txt
+likely human-written (score=1.2926, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=10.2549  X-PPL=7.9336
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_13.txt
+likely human-written (score=1.3444, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.6021  X-PPL=6.3986
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_14.txt
+likely human-written (score=1.1471, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=6.3424  X-PPL=5.5289
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_15.txt
+likely human-written (score=1.3928, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=10.9847  X-PPL=7.8869
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_16.txt
+likely human-written (score=1.2282, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=7.9871  X-PPL=6.5031
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_17.txt
+likely human-written (score=1.2089, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.1047  X-PPL=7.5316
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_18.txt
+likely human-written (score=1.2231, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=7.3874  X-PPL=6.0400
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_19.txt
+likely human-written (score=1.1514, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=7.4890  X-PPL=6.5040
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_20.txt
+likely human-written (score=1.2034, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=10.2164  X-PPL=8.4897
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_21.txt
+likely human-written (score=1.1601, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=11.3510  X-PPL=9.7848
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_22.txt
+likely human-written (score=1.0859, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.5390  X-PPL=8.7841
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_23.txt
+likely human-written (score=1.2923, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.0967  X-PPL=7.0391
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_24.txt
+likely human-written (score=1.2646, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=12.6806  X-PPL=10.0277
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_25.txt
+likely human-written (score=1.3794, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.8316  X-PPL=7.1277
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_26.txt
+likely human-written (score=1.3311, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=11.4947  X-PPL=8.6352
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_27.txt
+likely human-written (score=1.3833, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.7799  X-PPL=7.0699
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_28.txt
+likely human-written (score=1.2405, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=12.0096  X-PPL=9.6811
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_29.txt
+likely human-written (score=1.2745, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=11.6519  X-PPL=9.1425
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_30.txt
+likely human-written (score=1.1456, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.9673  X-PPL=7.8274
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_31.txt
+likely human-written (score=1.4505, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=13.8011  X-PPL=9.5149
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_32.txt
+likely human-written (score=1.1245, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.0821  X-PPL=8.0762
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_33.txt
+likely human-written (score=1.5197, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=16.1559  X-PPL=10.6310
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_34.txt
+likely human-written (score=1.2808, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=12.3149  X-PPL=9.6153
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_35.txt
+likely human-written (score=1.2123, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=5.3546  X-PPL=4.4171
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_36.txt
+likely human-written (score=1.1314, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.2969  X-PPL=7.3330
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_37.txt
+likely human-written (score=1.0567, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=7.2922  X-PPL=6.9007
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_38.txt
+likely human-written (score=1.3508, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.5362  X-PPL=6.3194
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_39.txt
+likely human-written (score=1.0605, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=7.2966  X-PPL=6.8801
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_40.txt
+likely human-written (score=1.1404, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.6518  X-PPL=7.5864
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_41.txt
+likely human-written (score=1.4464, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.8151  X-PPL=6.7860
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_42.txt
+likely human-written (score=1.0080, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=6.2027  X-PPL=6.1533
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_43.txt
+likely human-written (score=1.3053, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.8429  X-PPL=7.5409
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_44.txt
+likely human-written (score=1.5379, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=10.3852  X-PPL=6.7529
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_45.txt
+likely human-written (score=1.2990, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.8283  X-PPL=7.5658
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_46.txt
+likely human-written (score=1.3182, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.5607  X-PPL=7.2527
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_47.txt
+likely human-written (score=1.1460, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=7.4987  X-PPL=6.5434
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_48.txt
+likely human-written (score=1.3521, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=10.9143  X-PPL=8.0723
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/human/news_49.txt
+likely human-written (score=1.4695, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=12.4296  X-PPL=8.4584
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_00.txt
+likely human-written (score=1.4452, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=7.2815  X-PPL=5.0383
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_01.txt
+likely human-written (score=1.3284, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.2909  X-PPL=6.2411
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_02.txt
+likely human-written (score=1.0876, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=6.6532  X-PPL=6.1173
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_03.txt
+likely human-written (score=1.4722, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.0928  X-PPL=6.1765
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_04.txt
+likely machine-generated (score=0.9278, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=6.4011  X-PPL=6.8993
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_05.txt
+likely human-written (score=1.2972, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=7.7503  X-PPL=5.9746
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_06.txt
+likely human-written (score=1.4908, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=10.6021  X-PPL=7.1119
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_07.txt
+likely human-written (score=1.0034, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.0822  X-PPL=3.0717
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_08.txt
+likely human-written (score=1.2759, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=5.3291  X-PPL=4.1766
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_09.txt
+likely human-written (score=1.2515, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=6.9525  X-PPL=5.5551
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_10.txt
+likely human-written (score=1.3346, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.4216  X-PPL=7.0594
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_11.txt
+likely machine-generated (score=0.9345, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.9800  X-PPL=3.1888
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_12.txt
+likely human-written (score=1.0200, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.6897  X-PPL=2.6369
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_13.txt
+likely machine-generated (score=0.9780, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.9834  X-PPL=3.0506
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_14.txt
+likely human-written (score=1.1398, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.1592  X-PPL=7.1585
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_15.txt
+likely human-written (score=1.0597, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.3771  X-PPL=3.1870
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_16.txt
+likely human-written (score=1.3630, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=5.9995  X-PPL=4.4017
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_17.txt
+likely machine-generated (score=0.8378, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=4.1478  X-PPL=4.9510
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_18.txt
+likely human-written (score=1.2034, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=6.8505  X-PPL=5.6928
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_19.txt
+likely machine-generated (score=0.8649, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.4790  X-PPL=4.0223
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_20.txt
+likely machine-generated (score=0.9994, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.6232  X-PPL=3.6254
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_21.txt
+likely human-written (score=1.3470, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.3947  X-PPL=6.2320
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_22.txt
+likely human-written (score=1.0438, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.4223  X-PPL=3.2786
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_23.txt
+likely human-written (score=1.4968, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.7856  X-PPL=5.8694
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_24.txt
+likely machine-generated (score=0.9322, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.9751  X-PPL=3.1915
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_25.txt
+likely human-written (score=1.1697, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=6.5609  X-PPL=5.6089
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_26.txt
+likely human-written (score=1.0159, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.7457  X-PPL=2.7027
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_27.txt
+likely machine-generated (score=0.9626, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.3077  X-PPL=3.4363
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_28.txt
+likely machine-generated (score=0.9575, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.8075  X-PPL=3.9764
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_29.txt
+likely human-written (score=1.4389, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.8302  X-PPL=6.1370
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_30.txt
+likely human-written (score=1.1438, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.9616  X-PPL=7.8348
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_31.txt
+likely human-written (score=1.1976, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=6.5757  X-PPL=5.4907
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_32.txt
+likely human-written (score=1.2672, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.9500  X-PPL=3.1170
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_33.txt
+likely human-written (score=1.0110, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.3577  X-PPL=3.3211
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_34.txt
+likely machine-generated (score=0.8462, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.6026  X-PPL=4.2573
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_35.txt
+likely machine-generated (score=0.9056, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.6499  X-PPL=2.9262
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_36.txt
+likely human-written (score=1.2350, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=6.8452  X-PPL=5.5426
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_37.txt
+likely human-written (score=1.3577, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=7.6484  X-PPL=5.6335
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_38.txt
+likely machine-generated (score=0.9864, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.3177  X-PPL=3.3634
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_39.txt
+likely machine-generated (score=0.9513, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.5992  X-PPL=2.7323
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_40.txt
+likely machine-generated (score=0.8935, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.3067  X-PPL=3.7006
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_41.txt
+likely human-written (score=1.4228, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=11.3945  X-PPL=8.0083
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_42.txt
+likely human-written (score=1.3023, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=10.0480  X-PPL=7.7156
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_43.txt
+likely human-written (score=1.4814, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.5497  X-PPL=5.7714
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_44.txt
+likely human-written (score=1.0254, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.4597  X-PPL=3.3739
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_45.txt
+likely human-written (score=1.1464, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=7.5915  X-PPL=6.6218
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_46.txt
+likely human-written (score=1.0767, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.2192  X-PPL=2.9898
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_47.txt
+likely human-written (score=1.3526, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.6695  X-PPL=6.4096
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_48.txt
+likely human-written (score=1.3715, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=7.8839  X-PPL=5.7485
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/gpt4/news_49.txt
+likely human-written (score=1.0666, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.0958  X-PPL=2.9026
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_00.txt
+likely human-written (score=1.1052, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=4.1920  X-PPL=3.7931
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_01.txt
+likely human-written (score=1.0964, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=4.1275  X-PPL=3.7647
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_02.txt
+likely human-written (score=1.1062, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.4761  X-PPL=3.1423
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_03.txt
+likely human-written (score=1.0043, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=4.2165  X-PPL=4.1984
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_04.txt
+likely human-written (score=1.0360, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.8522  X-PPL=3.7182
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_05.txt
+likely machine-generated (score=0.8516, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.6949  X-PPL=3.1646
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_06.txt
+likely machine-generated (score=0.9455, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.0127  X-PPL=3.1863
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_07.txt
+likely human-written (score=1.1288, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=4.0330  X-PPL=3.5727
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_08.txt
+likely machine-generated (score=0.9683, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.9206  X-PPL=3.0163
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/chatgpt/news_09.txt
+likely machine-generated (score=0.8330, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.7017  X-PPL=3.2432
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_00.txt
+likely human-written (score=1.1136, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.3457  X-PPL=3.0044
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_01.txt
+likely human-written (score=1.3173, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=5.3957  X-PPL=4.0961
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_02.txt
+likely machine-generated (score=0.9570, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.4297  X-PPL=2.5388
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_03.txt
+likely machine-generated (score=0.9562, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.7360  X-PPL=2.8615
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_04.txt
+likely human-written (score=1.1571, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=4.4121  X-PPL=3.8132
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_05.txt
+likely machine-generated (score=0.8986, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.4153  X-PPL=2.6880
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_06.txt
+likely machine-generated (score=0.9314, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.8354  X-PPL=3.0443
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_07.txt
+likely machine-generated (score=0.9784, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.8221  X-PPL=2.8843
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_08.txt
+likely human-written (score=1.0000, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.9836  X-PPL=2.9835
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/llama-chat/news_09.txt
+likely machine-generated (score=0.9477, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.4500  X-PPL=2.5852
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_00.txt
+likely human-written (score=1.4095, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=5.7527  X-PPL=4.0814
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_01.txt
+likely machine-generated (score=0.8092, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.4776  X-PPL=3.0616
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_02.txt
+likely human-written (score=1.2921, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.5661  X-PPL=7.4038
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_03.txt
+likely human-written (score=1.0659, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=4.1230  X-PPL=3.8681
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_04.txt
+likely machine-generated (score=0.9790, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.7502  X-PPL=2.8092
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_05.txt
+likely machine-generated (score=0.8061, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.5120  X-PPL=3.1163
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_06.txt
+likely machine-generated (score=0.9050, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.2250  X-PPL=3.5636
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_07.txt
+likely machine-generated (score=0.7968, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.8058  X-PPL=3.5215
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_08.txt
+likely human-written (score=1.6061, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=6.5226  X-PPL=4.0613
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/mistral-chat/news_09.txt
+likely machine-generated (score=0.8093, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=3.0333  X-PPL=3.7481
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_00.txt
+likely human-written (score=1.2106, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.3212  X-PPL=6.8735
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_01.txt
+likely machine-generated (score=0.9934, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=5.3576  X-PPL=5.3932
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_02.txt
+likely human-written (score=1.0664, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.4120  X-PPL=7.8881
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_03.txt
+likely human-written (score=1.2843, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=12.1232  X-PPL=9.4394
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_04.txt
+likely machine-generated (score=0.9754, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.5858  X-PPL=8.8022
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_05.txt
+likely machine-generated (score=0.9733, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=2.9411  X-PPL=3.0218
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_06.txt
+likely machine-generated (score=0.9148, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=9.6807  X-PPL=10.5828
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_07.txt
+likely machine-generated (score=0.8469, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=5.4287  X-PPL=6.4098
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_08.txt
+likely machine-generated (score=0.9402, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=8.5003  X-PPL=9.0413
+==> /private/tmp/claude-501/-Users-dimitristsironis-code-dotfiles/8fe5a772-29d5-4b0f-834f-f39c0e888cd2/scratchpad/raid/cohere-chat/news_09.txt
+likely human-written (score=1.1440, threshold=1.0) -- unvalidated default threshold, see README.md to calibrate your own
+  PPL_observer=7.2534  X-PPL=6.3402

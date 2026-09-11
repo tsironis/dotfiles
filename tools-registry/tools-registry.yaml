@@ -38,3 +38,7 @@ tools:
   - name: hdiff
     description: "Side-by-side diff of two files, rendered to HTML and opened in the browser."
     source: nix-managed
+
+  - name: binoculars
+    description: "Local AI-generated-text detector (Binoculars method) via MLX, default Qwen2.5-7B pair, no built-in threshold (needs local calibration). Apple Silicon only."
+    source: nix-managed

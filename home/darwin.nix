@@ -43,6 +43,12 @@ in
       source = config.lib.file.mkOutOfStoreSymlink "${dotfiles}/read-pdf/read-pdf.py";
     };
 
+    # Local AI-generated-text detector (Binoculars method) via MLX, run through `uv run
+    # --script` the same way as read-pdf. Apple Silicon only — see binoculars/README.md.
+    home.file.".local/bin/binoculars" = {
+      source = config.lib.file.mkOutOfStoreSymlink "${dotfiles}/binoculars/binoculars.py";
+    };
+
     # fzf-driven zellij session picker, moved into the repo from its previous
     # untracked location at ~/.local/bin/zellij-sessionizer. `force = true` because
     # that path is occupied by a real (non-symlink) file on any machine that had it
