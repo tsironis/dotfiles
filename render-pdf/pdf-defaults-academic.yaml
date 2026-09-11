@@ -31,9 +31,15 @@ variables:
   fontsize: 11pt
   linestretch: 1.5
   page-numbering: "1"
+  # Without linkcolor, the typst template's `show link:` rule is a no-op, so links render as
+  # plain black text with no underline -- clickable, but visually indistinguishable from prose.
+  # The leading # must be escaped: pandoc renders this value as markdown into typst content,
+  # and an unescaped # at the start of that content is parsed as typst code, not literal text.
+  linkcolor: "\\#0645AD"
   # No `#show heading.where(level: 3)` rule here, deliberately: under this style the title
   # comes from frontmatter `title:`, so `#` is a real section and the template's own heading
   # scale is already correct.
   header-includes: |
     #set par(justify: true, first-line-indent: 1.2em)
     #show heading: set block(above: 1.4em, below: 0.8em)
+    #show link: underline
